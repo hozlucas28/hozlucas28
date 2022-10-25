@@ -8,7 +8,7 @@
         <br/>
         ¿How did I start in the IT World?
         <br/>
-        In 2019, I started making some scripts for video games in SQF language, like scenarios, and made a mod, and in 2022 I decided to start a my way to learn how to develop a website from A to Z.
+        In 2019, I started making some scripts for video games in SQF language, ending my trip with a mod, and in 2022 I decided to start my way to learn how to develop a website from A to Z.
     </p>
 </div>
 
