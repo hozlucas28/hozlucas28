@@ -1,5 +1,5 @@
 # 💫 About Me:
-I’m currently learning web developer technologies, through courser of internet like Udemy, "Codo a Codo" (government programming course) and some published on YouTube made it by recognized developers.<br><br>¿How did I start in the IT World?<br>In 2019, I started making some scripts for video games in SQF language, like scenarios, and made a mod, and in 2022 I decided to start a my way to learn how to develop a website since A to Z (working on).
+I’m currently learning web developer technologies, through courser of internet like [Udemy](https://www.udemy.com/), [Codo a Codo](https://www.buenosaires.gob.ar/educacion/codo-codo) (government programming course) and some published on YouTube made it by recognized hispanic developers, like [Fazt](https://www.youtube.com/c/FaztTech) and [Hola Mundo](https://www.youtube.com/c/HolaMundoDev).<br><br>¿How did I start in the IT World?<br>In 2019, I started making some scripts for video games in SQF language, like scenarios, and made a mod, and in 2022 I decided to start a my way to learn how to develop a website since A to Z (working on).
 
 
 ## 🌐 Socials:
