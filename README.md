@@ -6,7 +6,7 @@
         I’m a student of software engineering at <a href="https://www.unlam.edu.ar/">UNLaM university</a>, Buenos Aires - Argentina. Actually, I’m learning web developer technologies, through online courses like <a href="https://www.udemy.com/">Udemy</a>, <a href="https://www.buenosaires.gob.ar/educacion/codo-codo">Codo a Codo</a> (government programming course) and some published on YouTube made it by recognized hispanic developers, like <a href="https://www.youtube.com/c/FaztTech">Fazt</a> and <a href="https://www.youtube.com/c/HolaMundoDev">Hola Mundo</a>.
         <br/>
         <br/>
-        ¿How did I start in the IT World?
+        How did I start in the IT World?
         <br/>
         In 2019, I started making some scripts for video games in SQF language, ending my trip with a mod, and in 2022 I decided to start my way to learn how to develop a website from A to Z.
     </p>
