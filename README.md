@@ -14,7 +14,7 @@
 
 <h2>🌐 Socials:</h2>
 <div align="left">
-    <a href="https://www.linkedin.com/in/lucashoz/">
+    <a href="https://www.linkedin.com/in/lucashoz28/">
         <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
 </div>
