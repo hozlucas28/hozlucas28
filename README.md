@@ -1,9 +1,7 @@
 <h1>💫 About Me:</h1>
 <div>
     <p>
-        Hi, my name is Lucas...
-        <br/>
-        I'm a Software Engineering student at <a href="https://www.unlam.edu.ar/">UNLaM university</a>, Buenos Aires - Argentina. Actually, I'm learning web developer technologies through online courses like <a href="https://www.udemy.com/">Udemy</a>, <a href="https://inscripcionesagencia.bue.edu.ar/codoacodo">Codo a Codo</a> and some published on YouTube made by recognized Hispanic developers like <a href="https://www.youtube.com/c/FaztTech">Fazt</a> and <a href="https://www.youtube.com/c/HolaMundoDev">Hola Mundo</a>.
+        I'm a frontend developer with +4 years of programming experience, actively using Git and GitHub since 2021, like you can see at the end of the page in contributions history. Passionate about technology and new advancements in the IT sector. Also, I'm an active Software Engineering student at <a href="https://www.unlam.edu.ar/">UNLaM university</a>. Nowadays, improving and learning skills related with the web developer world. Following advices of most important Hispanic developers like <a href="https://www.youtube.com/c/FaztTech">Fazt</a>, <a href="https://www.youtube.com/c/midudev">Midudev</a> and <a href="https://www.youtube.com/c/HolaMundoDev">Hola Mundo</a>.
         <br/>
         <br/>
         How did I start in the IT World?
