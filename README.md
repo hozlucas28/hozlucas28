@@ -11,7 +11,7 @@
     <p>
         • Do you want to get in touch?
         <br/>
-        Visit my <a href="https://www.linkedin.com/in/hozlucas28/">Linkedin profile</a> to get my contact information or write me through messaging if you have any questions.
+        Visit my <a href="https://www.linkedin.com/in/hozlucas28/">LinkedIn profile</a> to get my contact information or write me through messaging if you have any questions.
     </p>
 </div>
 
