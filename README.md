@@ -1,12 +1,17 @@
 <h1>💫 About Me:</h1>
 <div>
     <p>
-        I'm a frontend developer with +4 years of programming experience, actively using Git and GitHub since 2021, like you can see at the end of the page in contributions history. Passionate about technology and new advancements in the IT sector. Also, I'm an active Software Engineering student at <a href="https://www.unlam.edu.ar/">UNLaM university</a>. Nowadays, improving and learning skills related with the web developer world. Following advices of most important Hispanic developers like <a href="https://www.youtube.com/c/FaztTech">Fazt</a>, <a href="https://www.youtube.com/c/midudev">Midudev</a> and <a href="https://www.youtube.com/c/HolaMundoDev">Hola Mundo</a>.
-        <br/>
-        <br/>
-        How did I start in the IT World?
+        Hi! I'm Lucas, frontend developer with +4 years of programming experience, actively using Git and GitHub since 2021. I'm an active Software Engineering student at <a href="https://www.unlam.edu.ar/">UNLaM university</a>. Nowadays, improving and learning skills related with the web developer world. Following advices of most important Hispanic developers like <a href="https://www.youtube.com/c/FaztTech">Fazt</a>, <a href="https://www.youtube.com/c/midudev">Midudev</a> and <a href="https://www.youtube.com/c/HolaMundoDev">Hola Mundo</a>.
+    </p>
+    <p>
+        • How did I start in the IT World?
         <br/>
         In 2019, I started making some scripts for video games in SQF language, ending my trip with a mod, and in 2022 I decided to start my way to learn how to develop a website from A to Z.
+    </p>
+    <p>
+        • Do you want to get in touch?
+        <br/>
+        Visit my <a href="https://www.linkedin.com/in/hozlucas28/">Linkedin profile</a> to get my contact information or write me through messaging if you have any questions.
     </p>
 </div>
 
