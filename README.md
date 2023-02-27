@@ -1,17 +1,18 @@
 <h1>💫 About Me:</h1>
 <div>
     <p>
-        Hi! I'm Lucas, frontend developer with +4 years of programming experience, actively using Git and GitHub since 2021. I'm an active Software Engineering student at <a href="https://www.unlam.edu.ar/">UNLaM university</a>. Nowadays, improving and learning skills related with the web developer world. Following advices of most important Hispanic developers like <a href="https://www.youtube.com/c/FaztTech">Fazt</a>, <a href="https://www.youtube.com/c/midudev">Midudev</a> and <a href="https://www.youtube.com/c/HolaMundoDev">Hola Mundo</a>.
+        👋 Hi! I'm Lucas, a <strong>Full Stack</strong> developer with strong knowledge in <strong>Front-end</strong>. I've been involved in the technology world since 2019, with more than <strong>4 years of experience programming</strong>. I invite you to check out my repositories, where you can find courses and projects. I consider myself a <strong>self-taught</strong> person who stays up to date with technologies and advances related to software development watching news related to the field and the world of digital business. Also, I'm an active Software Engineering student at <a href="https://www.unlam.edu.ar/">UNLaM university</a>.
     </p>
     <p>
-        • How did I start in the IT World?
-        <br/>
-        In 2019, I started making some scripts for video games in SQF language, ending my trip with a mod, and in 2022 I decided to start my way to learn how to develop a website from A to Z.
+        🎓 Nowadays, I am doing complementary courses of my stack to understand the technologies from different approaches and viewpoints, with the guidance of experts in the software development industry, such as: <a href="https://www.youtube.com/c/FaztTech">Fazt</a>, <a href="https://www.linkedin.com/in/midudev/">Miguel Angel Durán García (Midudev)</a>, and <a href="https://www.linkedin.com/in/nicolasschurmann/">Nicolás Schürmann Lindemann (Hola Mundo)</a>.
     </p>
     <p>
-        • Do you want to get in touch?
+        🎯 My personal goal is obtain the <strong><a href="https://www.coursera.org/professional-certificates/meta-front-end-developer">Front-end certification by Meta (Facebook)</a></strong> and the <strong><a href="https://www.coursera.org/professional-certificates/google-ux-design?utm_source=google&utm_medium=institutions&utm_campaign=gwgsite&_ga=2.174149026.1427134702.1676275163-1452313756.1675226542">User Experience Design (UX) certification by Google</a></strong>, once I have completed the courses that I am currently doing. Additionally, my professional goal is to take part in solving problems and contribute in a team-based environment where I can share my knowledge and, why not, expand it.
+    </p>
+    <p>
+        ☎️ Do you want to get in touch?
         <br/>
-        Visit my <a href="https://www.linkedin.com/in/hozlucas28/">LinkedIn profile</a> to get my contact information or write me through messaging if you have any questions.
+        Visit my contact information in my <a href="https://www.linkedin.com/in/hozlucas28/">LinkedIn profile</a> or write me.
     </p>
 </div>
 
