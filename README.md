@@ -1,4 +1,4 @@
-<h1>💫 About Me:</h1>
+<h1>💫 About Me</h1>
 <div>
     <p>
         👋 Hi! I'm Lucas, a <strong>Full Stack developer</strong> with strong knowledge in <strong>Front-end</strong>. I've been involved in the technology world since 2019, with more than <strong>4 years of experience programming</strong>. I invite you to check out my repositories, where you can find courses and projects. I'm a <strong>self-taught</strong> person who stays up to date with technologies and advances related to software development watching news related to the field and the world of digital business.
@@ -16,14 +16,14 @@
     </p>
 </div>
 
-<h2>🌐 Socials:</h2>
+<h2>🌐 Socials</h2>
 <div align="left">
     <a href="https://www.linkedin.com/in/hozlucas28/">
         <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
 </div>
 
-<h1>💻 Tech Stack:</h1>
+<h1>💻 Tech Stack</h1>
 <div align="left">
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="HTML5">
     <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3">
@@ -58,7 +58,7 @@
     <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white" alt="Figma">
 </div>
 
-<h1>📊 GitHub Stats:</h1>
+<h1>📊 GitHub Stats</h1>
 <div align="center">
     <picture>
         <source srcset="https://github-readme-stats-hozlucas28.vercel.app/api?username=hozlucas28&theme=react&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide=stars,issues" media="(prefers-color-scheme: dark)"/>
