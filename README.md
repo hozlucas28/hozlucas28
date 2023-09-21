@@ -12,13 +12,13 @@
     <p>
         ☎️ Do you want to get in touch?
         <br/>
-        Visit my contact information in my <a href="https://www.linkedin.com/in/hozlucas28/">LinkedIn profile</a> or write me.
+        Visit my contact information in my <a href="https://www.linkedin.com/in/lucashoz/">LinkedIn profile</a> or write me.
     </p>
 </div>
 
 <h2>🌐 Socials</h2>
 <div align="left">
-    <a href="https://www.linkedin.com/in/hozlucas28/">
+    <a href="https://www.linkedin.com/in/lucashoz/">
         <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
 </div>
