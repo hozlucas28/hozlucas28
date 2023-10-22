@@ -1,7 +1,7 @@
 <h1>💫 About Me</h1>
 <div>
     <p>
-        👋 Hi! I'm Lucas, a <strong>Full Stack developer</strong> with strong knowledge in <strong>Front-end</strong>. I've been involved in the technology world since 2019, with more than <strong>4 years of experience programming</strong>. I invite you to check out my repositories, where you can find courses and projects. I'm a <strong>self-taught</strong> person who stays up to date with technologies and advances related to software development watching news related to the field and the world of digital business.
+        👋 Hi! I'm Lucas, a <strong>Full Stack developer</strong> with strong knowledge in <strong>Front-end</strong>. I've been involved in the technology world since 2019, with more than <strong>4 years of programming experience</strong>. I invite you to check out my repositories, where you can find courses and projects. I'm a <strong>self-taught</strong> person who stays up to date with technologies and advances related to software development watching news related to the field and the world of digital business.
     </p>
     <p>
         🎓 Nowadays, I'm an active <strong>Software Engineering</strong> student at <strong><a href="https://www.unlam.edu.ar/">UNLaM university</a></strong>. Seeking to understand understand the technologies from different approaches and viewpoints, with the guidance of experts in the software development industry, such as: <a href="https://www.youtube.com/c/FaztTech">Fazt</a>, <a href="https://www.linkedin.com/in/alanbuscaglia/">Alan Buscaglia (Gentleman Programming)</a>, and <a href="https://www.linkedin.com/in/midudev/">Miguel Angel Durán García (Midudev)</a>.
