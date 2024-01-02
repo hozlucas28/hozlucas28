@@ -1,13 +1,10 @@
 <h1>💫 About Me</h1>
 <div>
     <p>
-        👋 Hi! I'm Lucas, a <strong>Full Stack developer</strong> with strong knowledge in <strong>Front-end</strong>. I've been involved in the technology world since 2019, with more than <strong>4 years of programming experience</strong>. I invite you to check out my repositories, where you can find courses and projects. I'm a <strong>self-taught</strong> person who stays up to date with technologies and advances related to software development watching news related to the field and the world of digital business.
+        👋 Hello! I'm Lucas, a <strong>software developer</strong> with extensive knowledge in <strong>Front-end</strong>, and <strong>Back-end</strong>. I have over <strong>5 years of programming experience</strong>, sharing my knowledge since 2019. I focus on creating impactful experiences that blend design and functionality, through my <strong>skills in UX and UI</strong>.
     </p>
     <p>
-        🎓 Nowadays, I'm an active <strong>Software Engineering</strong> student at <strong><a href="https://www.unlam.edu.ar/">UNLaM university</a></strong>. Seeking to understand understand the technologies from different approaches and viewpoints, with the guidance of experts in the software development industry, such as: <a href="https://www.youtube.com/c/FaztTech">Fazt</a>, <a href="https://www.linkedin.com/in/alanbuscaglia/">Alan Buscaglia (Gentleman Programming)</a>, and <a href="https://www.linkedin.com/in/midudev/">Miguel Angel Durán García (Midudev)</a>.
-    </p>
-    <p>
-        🎯 My professional goal is to <strong>take part in solving problems</strong> and <strong>contribute in a team-based environment</strong> where I can <strong>share my knowledge</strong> and, why not, expand it.
+        🎓 Currently, I nourish myself with the knowledge, advice, and good practices from <strong>Google Developer Experts</strong>: <a href="https://www.linkedin.com/in/alanbuscaglia/">Alan Buscaglia (Gentleman Programming)</a> and <a href="https://www.linkedin.com/in/midudev/">Miguel Angel Durán García (Midudev)</a>. In addition, I am pursuing my studies in the field of <strong>Software Engineering</strong>.
     </p>
     <p>
         ☎️ Do you want to get in touch?
@@ -18,8 +15,14 @@
 
 <h2>🌐 Socials</h2>
 <div align="left">
+    <a href="https://medium.com/@hozlucas28/">
+        <img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white" alt="Medium">
+    </a>
     <a href="https://www.linkedin.com/in/lucashoz/">
         <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
+    <a href="https://twitter.com/hozlucas28/">
+        <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white" alt="Twitter">
     </a>
 </div>
 
