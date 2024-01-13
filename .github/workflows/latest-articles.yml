@@ -20,6 +20,6 @@ jobs:
           committer_email: 'hozlucas28@gmail.com'
           committer_username: 'Update latest articles [GitHub Action]'
           date_format: 'mmm d, yyyy'
-          feed_list: 'https://medium.com/feed/@midudev'
+          feed_list: 'https://medium.com/feed/@hozlucas28'
           max_post_count: 3
           template: '$newline    <li><a href="$url">$title</a></li>'
