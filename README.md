@@ -15,6 +15,9 @@
 
 <h2>📰 Latest Articles</h2>
 <!-- BLOG-POST-LIST:START -->
+- [AdventJS, JavaScript/TypeScript coding challenges for Xmas](https://midudev.medium.com/adventjs-javascript-typescript-coding-challenges-for-xmas-8f19974e0486?source=rss-1b78a7ec4768------2)
+- [AdventJS, JavaScript/TypeScript coding challenges](https://midudev.medium.com/adventjs-javascript-typescript-coding-challenges-65742af699e2?source=rss-1b78a7ec4768------2)
+- [Aprende React ⚛️ desde cero, en vídeo](https://midudev.medium.com/aprende-react-%EF%B8%8F-desde-cero-en-v%C3%ADdeo-90075cd2f531?source=rss-1b78a7ec4768------2)
 <!-- BLOG-POST-LIST:END -->
 
 <h2>🌐 Socials</h2>
