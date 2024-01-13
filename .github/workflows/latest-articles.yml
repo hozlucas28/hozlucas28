@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  update-readme-with-blog:
+  update-latest-articles:
     name: Update README.md with the latest articles
     runs-on: ubuntu-latest
     steps:
