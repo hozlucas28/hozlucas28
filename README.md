@@ -13,6 +13,10 @@
     </p>
 </div>
 
+<h2>📰 Latest Articles</h2>
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 <h2>🌐 Socials</h2>
 <div align="left">
     <a href="https://twitter.com/hozlucas28/">
