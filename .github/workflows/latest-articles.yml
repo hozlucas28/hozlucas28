@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   update-readme-with-blog:
-    name: Update README.md with latest articles
+    name: Update README.md with the latest articles
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -16,4 +16,11 @@ jobs:
       - name: Pull Medium posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
+          commit_message: "Update README.md with the latest articles"
+          committer_email: "hozlucas28@gmail.com"
+          committer_username: "Latest articles - GitHub Action"
+          date_format: "mmm d, yyyy"
           feed_list: 'https://medium.com/feed/@midudev'
+          max_post_count: 3
+          template: "<li><a href="$url">$title</a></li>"
+
