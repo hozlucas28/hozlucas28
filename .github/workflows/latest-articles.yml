@@ -22,4 +22,4 @@ jobs:
           date_format: 'mmm d, yyyy'
           feed_list: 'https://medium.com/feed/@midudev'
           max_post_count: 3
-          template: '<li><a href="$url">$title</a></li>'
+          template: '<li><a href="$url">$title</a></li>$newline'
