@@ -1,4 +1,4 @@
-name: Update latest articles
+name: Update articles
 on:
   schedule:
     - cron: '0 * * * *'
@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   update-latest-articles:
-    name: Update README.md with the latest articles
+    name: Update articles section of README.md
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,8 +18,7 @@ jobs:
         with:
           commit_message: 'Update README.md with the latest articles'
           committer_email: 'hozlucas28@gmail.com'
-          committer_username: 'Update latest articles [GitHub Action]'
-          date_format: 'mmm d, yyyy'
+          committer_username: 'Update articles [GitHub Action]'
           feed_list: 'https://medium.com/feed/@hozlucas28'
           max_post_count: 3
           template: '$newline    <li><a href="$url">$title</a></li>'
