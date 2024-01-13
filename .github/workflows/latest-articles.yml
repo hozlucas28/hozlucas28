@@ -1,4 +1,4 @@
-name: Latest blog post
+name: Update latest articles
 on:
   schedule:
     - cron: '0 * * * *'
@@ -18,7 +18,7 @@ jobs:
         with:
           commit_message: 'Update README.md with the latest articles'
           committer_email: 'hozlucas28@gmail.com'
-          committer_username: 'Latest articles - GitHub Action'
+          committer_username: 'Update latest articles [GitHub Action]'
           date_format: 'mmm d, yyyy'
           feed_list: 'https://medium.com/feed/@midudev'
           max_post_count: 3
