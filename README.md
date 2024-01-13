@@ -13,7 +13,7 @@
     </p>
 </div>
 
-<h2>📰 Latest Articles</h2>
+<h2>📰 Articles</h2>
 <ul>
     <!-- BLOG-POST-LIST:START -->
     <li><a href="https://midudev.medium.com/adventjs-javascript-typescript-coding-challenges-for-xmas-8f19974e0486?source=rss-1b78a7ec4768------2">AdventJS, JavaScript/TypeScript coding challenges for Xmas</a></li>
