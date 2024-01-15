@@ -1,7 +1,7 @@
 name: Update articles
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 1-31 * *'
   workflow_dispatch:
 permissions:
   contents: write
