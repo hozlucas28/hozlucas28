@@ -16,7 +16,8 @@
 <h2>📰 Articles</h2>
 <ul>
     <!-- BLOG-POST-LIST:START -->
-    <!-- BLOG-POST-LIST:END -->
+    <li><a href="https://medium.com/@hozlucas28/wireframes-the-invisible-pillar-of-web-development-11be08b6a5d7?source=rss-992ce3372c79------2">Wireframes: The Invisible Pillar of Web Development</a></li>
+    <li><a href="https://medium.com/@hozlucas28/wireframes-el-pilar-invisible-del-desarrollo-web-b9204c44f8c4?source=rss-992ce3372c79------2">Wireframes: El Pilar Invisible del Desarrollo Web</a></li><!-- BLOG-POST-LIST:END -->
 </ul>
 
 <h2>🌐 Socials</h2>
