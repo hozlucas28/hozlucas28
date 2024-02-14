@@ -20,5 +20,5 @@ jobs:
           committer_email: 'hozlucas28@gmail.com'
           committer_username: 'Update articles [GitHub Action]'
           feed_list: 'https://medium.com/feed/@hozlucas28'
-          max_post_count: 3
+          max_post_count: 4
           template: '$newline    <li><a href="$url">$title</a></li>'
