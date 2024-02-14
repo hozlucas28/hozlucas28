@@ -13,7 +13,7 @@
     </p>
 </div>
 
-<h2>📰 Articles</h2>
+<h2>📰 Latest Articles</h2>
 <ul>
     <!-- BLOG-POST-LIST:START -->
     <li><a href="https://medium.com/@hozlucas28/github-actions-automatizaci%C3%B3n-de-procesos-76091edd06af?source=rss-992ce3372c79------2">GitHub Actions — Automatización de Procesos</a></li>
