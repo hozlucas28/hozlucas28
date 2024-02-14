@@ -1,4 +1,4 @@
-<h1>💫 About Me</h1>
+<h1>💫 About me</h1>
 <div>
     <p>
         👋 Hello! I'm Lucas, a <strong>software developer</strong> with extensive knowledge in <strong>Front-end</strong>, and <strong>Back-end</strong>. I have over <strong>5 years of programming experience</strong>, sharing my knowledge since 2019. I focus on creating impactful experiences that blend design and functionality, through my <strong>skills in UX and UI</strong>.
@@ -13,7 +13,7 @@
     </p>
 </div>
 
-<h2>📰 Latest Articles</h2>
+<h2>📰 Latest articles</h2>
 <ul>
     <!-- BLOG-POST-LIST:START -->
     <li><a href="https://medium.com/@hozlucas28/github-actions-automatizaci%C3%B3n-de-procesos-76091edd06af?source=rss-992ce3372c79------2">GitHub Actions — Automatización de Procesos</a></li>
@@ -37,7 +37,7 @@
     </a>
 </div>
 
-<h1>💻 Tech Stack</h1>
+<h1>💻 Tech stack</h1>
 <div align="left">
     <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="HTML5">
     <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3">
@@ -76,7 +76,7 @@
     <img src="https://img.shields.io/badge/Adobe_Photoshop-%2331A8FF.svg?style=flat&logo=adobephotoshop&logoColor=white" alt="Adobe Photoshop">
 </div>
 
-<h1>📊 GitHub Stats</h1>
+<h1>📊 GitHub stats</h1>
 <div align="center">
     <picture>
         <source srcset="https://git-hub-stats-one.vercel.app/api?username=hozlucas28&theme=react&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide=stars,issues" media="(prefers-color-scheme: dark)"/>
@@ -97,7 +97,7 @@
     </picture>
 </div>
 
-<h2>🏆 GitHub Trophies</h2>
+<h2>🏆 GitHub trophies</h2>
 <div align="center">
     <picture>
         <source srcset="https://github-profile-trophy.vercel.app/?username=hozlucas28&theme=discord&no-frame=true&no-bg=false&margin-w=4" media="(prefers-color-scheme: dark)"/>
