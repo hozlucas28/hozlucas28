@@ -4,7 +4,7 @@
         👋 Hello! I'm Lucas, a <strong>software developer</strong> with extensive knowledge in <strong>Front-end</strong>, and <strong>Back-end</strong>. I have over <strong>5 years of programming experience</strong>, sharing my knowledge since 2019. I focus on creating impactful experiences that blend design and functionality, through my <strong>skills in UX and UI</strong>.
     </p>
     <p>
-        🎓 Currently, I nourish myself with the knowledge, advice, and good practices from <strong>Google Developer Experts</strong>: <a href="https://www.linkedin.com/in/alanbuscaglia/">Alan Buscaglia (Gentleman Programming)</a> and <a href="https://www.linkedin.com/in/midudev/">Miguel Angel Durán García (Midudev)</a>. In addition, I am pursuing my studies in the field of <strong>Software Engineering</strong>.
+        🎓 Currently, I nourish myself with the knowledge, advice, and good practices from <strong>Google Developer Experts</strong>: <a href="https://www.linkedin.com/in/alanbuscaglia/">Alan Buscaglia (Gentleman Programming)</a> and <a href="https://www.linkedin.com/in/midudev/">Miguel Angel Durán García (Midudev)</a>. In addition, I am pursuing my studies in the field of <strong>Computer Engineering</strong>.
     </p>
     <p>
         ☎️ Do you want to get in touch?
