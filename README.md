@@ -16,10 +16,10 @@
 <h2>📰 Latest articles</h2>
 <ul>
     <!-- BLOG-POST-LIST:START -->
+    <li><a href="https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2">Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;</a></li>
+    <li><a href="https://medium.com/@hozlucas28/diferencias-entre-experiencia-de-usuario-ux-e-interfaz-de-usuario-ui-da58628334ea?source=rss-992ce3372c79------2">Diferencias entre Experiencia de Usuario &lpar;UX&rpar; e Interfaz de Usuario &lpar;UI&rpar;</a></li>
     <li><a href="https://medium.com/@hozlucas28/github-actions-automatizaci%C3%B3n-de-procesos-76091edd06af?source=rss-992ce3372c79------2">GitHub Actions — Automatización de Procesos</a></li>
-    <li><a href="https://medium.com/@hozlucas28/github-actions-process-automation-f49ccf9860a8?source=rss-992ce3372c79------2">GitHub Actions — Process Automation</a></li>
-    <li><a href="https://medium.com/@hozlucas28/wireframes-the-invisible-pillar-of-web-development-11be08b6a5d7?source=rss-992ce3372c79------2">Wireframes: The Invisible Pillar of Web Development</a></li>
-    <li><a href="https://medium.com/@hozlucas28/wireframes-el-pilar-invisible-del-desarrollo-web-b9204c44f8c4?source=rss-992ce3372c79------2">Wireframes: El Pilar Invisible del Desarrollo Web</a></li><!-- BLOG-POST-LIST:END -->
+    <li><a href="https://medium.com/@hozlucas28/github-actions-process-automation-f49ccf9860a8?source=rss-992ce3372c79------2">GitHub Actions — Process Automation</a></li><!-- BLOG-POST-LIST:END -->
 </ul>
 
 <h2>🌐 Socials</h2>
