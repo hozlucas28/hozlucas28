@@ -25,16 +25,16 @@
 <h2>🌐 Socials</h2>
 <div align="left">
     <a href="https://twitter.com/hozlucas28/">
-        <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white" alt="Twitter">
-    </a>
-    <a href="https://www.linkedin.com/in/lucashoz/">
-        <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn">
+        <img src="https://img.shields.io/badge/Twitter-%23000000.svg?logo=X&logoColor=white" alt="Twitter (X)">
     </a>
     <a href="https://medium.com/@hozlucas28/">
         <img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white" alt="Medium">
     </a>
+    <a href="https://www.linkedin.com/in/lucashoz/">
+        <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn">
+    </a>
     <a href="https://learn.microsoft.com/users/lucashoz/">
-        <img src="https://img.shields.io/badge/Microsoft-0078D7?logo=microsoft&logoColor=white" alt="Medium">
+        <img src="https://img.shields.io/badge/Microsoft_Learn-258ffa?logo=microsoft&logoColor=white" alt="Medium">
     </a>
 </div>
 
