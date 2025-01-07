@@ -1,10 +1,10 @@
 <h1>💫 About me</h1>
 <div>
     <p>
-        👋 Hi! I'm a <strong>software developer</strong> focused on <strong>Frontend engineering</strong> with knowledge in <strong>Backend</strong>. I have over <strong>3 years of programming experience</strong>, sharing my knowledge since 2019.
+        👋 Hi! I'm a <strong>software developer</strong> specialized in <strong>Frontend</strong>, with strong knowledge in Backend and more than <strong>3 years of programming experience</strong> and sharing my knowledge.
     </p>
     <p>
-        🎓 I am currently studying <strong>Computer Engineering</strong> and nourish myself with the knowledge, advice, and good practices of <strong>Google Developer Experts</strong>: <a href="https://www.linkedin.com/in/alanbuscaglia/">Alan Buscaglia (Gentleman Programming)</a> and <a href="https://www.linkedin.com/in/midudev/">Miguel Angel Durán García (Midudev)</a>, learning about design patterns, architectures, and new technologies.
+        🎓 I am currently studying <strong>Computer Engineering</strong> and enriching my skills with the knowledge, advice, and good practices of <strong>Google Developer Experts</strong>: <a href="https://www.linkedin.com/in/alanbuscaglia/">Alan Buscaglia (Gentleman Programming)</a> and <a href="https://www.linkedin.com/in/midudev/">Miguel Angel Durán García (Midudev)</a>, learning about <strong>architectures</strong>, <strong>design patterns</strong>, and emerging technologies.
     </p>
     <p>
         ☎️ Do you want to get in touch?
