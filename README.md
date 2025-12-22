@@ -91,8 +91,8 @@
 <h2>🏆 GitHub trophies</h2>
 <div align="center">
     <picture>
-        <source srcset="https://github-profile-trophy.vercel.app/?username=hozlucas28&theme=discord&no-frame=true&no-bg=false&margin-w=4" media="(prefers-color-scheme: dark)"/>
-        <source srcset="https://github-profile-trophy.vercel.app/?username=hozlucas28&theme=transparent&no-frame=false&no-bg=false&margin-w=4" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-        <img src="https://github-profile-trophy.vercel.app/?username=hozlucas28&theme=discord&no-frame=true&no-bg=false&margin-w=4" />
+        <source srcset="https://github-profile-trophy-one-gilt.vercel.app/?username=hozlucas28&theme=discord&no-frame=true&no-bg=false&margin-w=4" media="(prefers-color-scheme: dark)"/>
+        <source srcset="https://github-profile-trophy-one-gilt.vercel.app/?username=hozlucas28&theme=transparent&no-frame=false&no-bg=false&margin-w=4" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+        <img src="https://github-profile-trophy-one-gilt.vercel.app/?username=hozlucas28&theme=discord&no-frame=true&no-bg=false&margin-w=4" />
     </picture>
 </div>
