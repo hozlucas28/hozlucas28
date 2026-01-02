@@ -1,0 +1,38 @@
+name: Latest Articles
+run-name: Update latest articles
+description: Updates the latest articles section of the README.md file every day at midnight.
+permissions: {}
+
+on:
+    schedule:
+        - cron: "0 0 * * *"
+
+jobs:
+    latest-articles:
+        name: Update latest articles
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: write
+
+        steps:
+            - name: Checkout README.md file
+              uses: actions/checkout@v5
+              with:
+                  sparse-checkout: README.md
+                  persist-credentials: true
+                  sparse-checkout-cone-mode: false
+
+            - name: Update latest articles with the new articles from Medium
+              uses: gautamkrishnar/blog-post-workflow@v1
+              with:
+                  template: '$newline    <li><a href="$url">$title</a></li>'
+                  feed_list: https://medium.com/feed/@hozlucas28
+                  commit_message: "docs: update latest articles"
+                  max_post_count: 4
+                  committer_email: hozlucas28@gmail.com
+                  committer_username: hozlucas28
+
+concurrency:
+    group: latest-articles
+    cancel-in-progress: true
