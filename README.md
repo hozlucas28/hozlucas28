@@ -1,24 +1,15 @@
 ## 💫 About me
 
-👋 Hi! I'm a **software developer** specialized in **Frontend**, with strong knowledge in Backend and more than **3 years of programming experience** and sharing my knowledge.
+👋 Hi! I'm Lucas, a developer who enjoys designing **fluid user experiences** on the Frontend as much as creating **robust architectures** on the Backend. I am obsessed with building scalable, maintainable, and efficient software.
 
-🎓 I am currently enriching my skills with the knowledge, advice, and good practices of **Google Developer Experts** such as [Alan Buscaglia (Gentleman Programming)](https://www.linkedin.com/in/alanbuscaglia/) and [Miguel Angel Durán García (Midudev)](https://www.linkedin.com/in/midudev/), learning about **architectures**, **design patterns**, and emerging technologies.
+As an **advanced Computer Engineering student**, my philosophy is learning by doing and sharing; my technical curiosity has led me to specialize in modern architectures, diving deep into **high-performance Frontend and Backend ecosystems**.
 
-> If you want to get in touch, visit my contact information in my [LinkedIn profile](https://www.linkedin.com/in/lucashoz/).
-
-## 📰 Latest articles
-
-<!-- BLOG-POST-LIST:START -->
-- [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
-- [DevContainers](https://medium.com/@hozlucas28/devcontainers-8919c58915bb?source=rss-992ce3372c79------2)
-- [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)
-- [Diferencias entre Experiencia de Usuario &lpar;UX&rpar; e Interfaz de Usuario &lpar;UI&rpar;](https://medium.com/@hozlucas28/diferencias-entre-experiencia-de-usuario-ux-e-interfaz-de-usuario-ui-da58628334ea?source=rss-992ce3372c79------2)<!-- BLOG-POST-LIST:END -->
+If you'd like to get in touch, feel free to write to me.
 
 ## 🌐 Socials
 
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@hozlucas28/)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2.svg?style=flat&logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/lucashoz/)
-[![Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-258ffa?logo=microsoft&logoColor=white)](https://learn.microsoft.com/users/lucashoz/)
 
 ## 💻 Tech stack
 
@@ -49,6 +40,15 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)
 ![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=vsc&logoColor=white)
+
+## 📰 Latest articles
+
+<!-- BLOG-POST-LIST:START -->
+
+- [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
+- [DevContainers](https://medium.com/@hozlucas28/devcontainers-8919c58915bb?source=rss-992ce3372c79------2)
+- [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)
+- [Diferencias entre Experiencia de Usuario &lpar;UX&rpar; e Interfaz de Usuario &lpar;UI&rpar;](https://medium.com/@hozlucas28/diferencias-entre-experiencia-de-usuario-ux-e-interfaz-de-usuario-ui-da58628334ea?source=rss-992ce3372c79------2)<!-- BLOG-POST-LIST:END -->
 
 ## 📊 GitHub stats
 
