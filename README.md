@@ -44,7 +44,6 @@ If you'd like to get in touch, feel free to write to me.
 ## 📰 Latest articles
 
 <!-- BLOG-POST-LIST:START -->
-
 - [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
 - [DevContainers](https://medium.com/@hozlucas28/devcontainers-8919c58915bb?source=rss-992ce3372c79------2)
 - [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)
