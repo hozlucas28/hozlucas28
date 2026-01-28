@@ -2,7 +2,7 @@
 
 👋 Hi! I'm Lucas, a developer who enjoys designing **fluid user experiences** on the Frontend as much as creating **robust architectures** on the Backend. I am obsessed with building scalable, maintainable, and efficient software.
 
-As an **advanced Computer Engineering student**, my philosophy is learning by doing and sharing; my technical curiosity has led me to specialize in modern architectures, diving deep into **high-performance Frontend and Backend ecosystems**.
+As an **advanced Computer Engineering student**, my philosophy is learning by doing and sharing. My technical curiosity has led me to specialize in modern architectures, diving deep into **high-performance Frontend and Backend ecosystems**.
 
 If you'd like to get in touch, feel free to write to me.
 
