@@ -8,8 +8,8 @@ If you'd like to get in touch, feel free to write to me.
 
 ## 🌐 Socials
 
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@hozlucas28/)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2.svg?style=flat&logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/lucashoz/)
+[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@hozlucas28/)
 
 ## 💻 Tech stack
 
