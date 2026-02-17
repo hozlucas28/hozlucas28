@@ -1,0 +1,51 @@
+
+# ---------------------------------------------------------------------------- #
+#                                    PROJECT                                   #
+# ---------------------------------------------------------------------------- #
+
+# Auto-generated files by `.devcontainer/setup-tools.sh`
+package.json
+pnpm-lock.yaml
+
+
+
+# ---------------------------------------------------------------------------- #
+#                                     NODE                                     #
+# ---------------------------------------------------------------------------- #
+
+# Logs
+logs
+*.log
+npm-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional pnpm cache directory
+.pnpm-store
+
+# Optional REPL history
+.node_repl_history
+
+# Environment variable files
+.env
+.env.local
+.env.test.local
+.env.production.local
+.env.development.local
