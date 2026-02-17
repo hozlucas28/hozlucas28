@@ -1,0 +1,9 @@
+name: hozlucas28_devcontainer
+
+services:
+  devcontainer:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/workspaces/hozlucas28:cached
