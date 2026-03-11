@@ -10,6 +10,8 @@ If you'd like to get in touch, feel free to write to me.
 
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2.svg?style=flat&logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/lucashoz/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@hozlucas28/)
+[![LeetCode](https://img.shields.io/badge/HackerRank-12100E?logo=hackerrank&logoColor=#d16c06)](https://www.hackerrank.com/profile/hozlucas28)
+[![LeetCode](https://img.shields.io/badge/LeetCode-12100E?logo=LeetCode&logoColor=#d16c06)](https://leetcode.com/u/hozlucas28/)
 
 ## 💻 Tech stack
 
@@ -36,6 +38,7 @@ If you'd like to get in touch, feel free to write to me.
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=flat&logo=docker&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-%23121011.svg?style=flat&logo=githubcopilot&logoColor=white)
+![Renovate](https://img.shields.io/badge/Renovate-1A1F6C?logo=renovate&logoColor=fff)
 ![Dependabot](https://img.shields.io/badge/Dependabot-025E8C.svg?style=flat&logo=dependabot&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)
