@@ -1,6 +1,6 @@
 name: Latest Articles
 run-name: Update latest articles
-description: Updates the latest articles section of the README.md file every day at midnight.
+description: Updates the latest articles section of the `README.md` file every day at midnight.
 permissions: {}
 
 on:
@@ -16,7 +16,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout README.md file
+      - name: Checkout `README.md` file
         uses: actions/checkout@v5
         with:
           sparse-checkout: README.md
@@ -28,7 +28,7 @@ jobs:
         with:
           template: "$newline- [$title]($url)"
           feed_list: https://medium.com/feed/@hozlucas28
-          commit_message: "docs: update latest articles"
+          commit_message: "docs(`README.md`): update latest articles"
           max_post_count: 4
           committer_email: hozlucas28@gmail.com
           committer_username: hozlucas28

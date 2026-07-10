@@ -1,7 +1,40 @@
 {
 	"version": "0.2",
-	"language": "es,es-ES,en,en-US,en-GB",
 	"useGitignore": true,
-	"words": ["gautamkrishnar", "getopt", "hozlucas", "oxfmt", "rendercv"],
-	"ignorePaths": [".devcontainer/devcontainer.json", ".devcontainer/Dockerfile", "git/.gitconfig", "git/.gitconfig-macos.local", "git/.gitconfig-windows.local",]
+	"language": "es, es-ES, en, en-us, en-gb, lorem, lorem-ipsum",
+	"words": [
+		"gautamkrishnar",
+		"getopt",
+		"github",
+		"hozlucas",
+		"lefthook",
+		"linux",
+		"longoptions",
+		"oxfmt",
+		"rendercv",
+		"zizmor"
+	],
+	"dictionaries": [
+		"software-term-suggestions",
+		"softwareTerms",
+		"software-tools",
+		"networking-terms",
+		"web-services",
+		"computing-acronyms",
+		"coding-compound-terms",
+		"software-terms-alternative"
+	],
+	"ignorePaths": [
+		".devcontainer/compose.yaml",
+		".devcontainer/devcontainer.json",
+		".devcontainer/Dockerfile",
+		"git/.gitconfig",
+		"git/.gitconfig-macos.local",
+		"git/.gitconfig-windows.local",
+		".editorconfig",
+		".gitattributes",
+		".gitignore",
+		"cspell.json",
+		"zizmor.yaml",
+	]
 }

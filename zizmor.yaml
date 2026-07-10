@@ -1,0 +1,9 @@
+rules:
+  artipacked:
+    ignore:
+      - latest-articles.yaml
+
+  unpinned-uses:
+    config:
+      policies:
+        actions/*: ref-pin
