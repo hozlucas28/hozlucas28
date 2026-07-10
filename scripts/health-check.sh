@@ -18,6 +18,7 @@ while [[ $# -gt 0 ]]; do
 			printf "\e[31mAn invalid option was found!\e[0m\n" >&2
 			exit 1
 			;;
+            
         *)
             break
             ;;
