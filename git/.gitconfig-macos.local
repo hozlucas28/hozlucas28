@@ -1,4 +1,2 @@
-# Only for macOS systems.
-# Remove `-macos` from the file name.
 [core]
     autocrlf = input

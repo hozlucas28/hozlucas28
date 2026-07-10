@@ -3,5 +3,5 @@
 	"language": "es,es-ES,en,en-US,en-GB",
 	"useGitignore": true,
 	"words": ["gautamkrishnar", "getopt", "hozlucas", "oxfmt", "rendercv"],
-	"ignorePaths": [".devcontainer/devcontainer.json", ".devcontainer/Dockerfile"]
+	"ignorePaths": [".devcontainer/devcontainer.json", ".devcontainer/Dockerfile", "git/.gitconfig", "git/.gitconfig-macos.local", "git/.gitconfig-windows.local",]
 }

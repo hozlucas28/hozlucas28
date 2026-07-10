@@ -1,4 +1,2 @@
-# Only for Windows systems.
-# Remove `-windows` from the file name.
 [core]
     autocrlf = true
