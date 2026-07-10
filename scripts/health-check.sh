@@ -17,15 +17,17 @@ while true; do
 			shift 1
 			break
 			;;
+
 		"--")
 			shift
 			break
 			;;
+
 		*)
 			echo -e "\e[31mAn internal error occurred!\e[0m" >&2
 			exit 1
 			;;
-		esac
+	esac
 done
 
 # Show help if needed
@@ -58,6 +60,9 @@ if [[ $? -ne 0 ]]; then
 	echo -e "\e[31mFailed to change directory to project root.\e[0m" >&2
 	exit 1
 fi
+
+# Exit on any command failure
+set -e
 
 exit_code=0
 
