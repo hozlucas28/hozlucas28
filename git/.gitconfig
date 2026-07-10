@@ -97,4 +97,4 @@
 	helper = !gh auth git-credential
 
 [include]
-    path = ~/.gitconfig.local
+    path = .gitconfig.local
