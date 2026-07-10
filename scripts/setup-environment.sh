@@ -1,37 +1,36 @@
 #! /bin/bash
 
 # Parse options
-options=$(getopt -o "s:h" --long "system:,help" -- "$@")
-
-if [ $? -ne 0 ]; then
-	echo -e "\e[31mAn error occurred on parsing options.\e[0m" >&2
-	exit 1
-fi
-
-eval set -- "$options"
-
-while true; do
+while [[ $# -gt 0 ]]; do
 	case "$1" in
-		"-s" | "--system")
+		-s | --system)
 			system="$2"
 			shift 2
 			;;
 
-		"-h" | "--help")
-			need_help="true"
+		-s=* | --system=*)
+			system="${1#*=}"
+			shift 1
+			;;
+
+		-h | --help)
+			need_help='true'
 			shift 1
 			break
 			;;
 
-		"--")
-			shift
+		--)
+			shift 1
 			break
 			;;
 
-		*)
-			echo -e "\e[31mAn internal error occurred!\e[0m" >&2
+		-*)
+			printf "\e[31mAn invalid option was found!\e[0m\n" >&2
 			exit 1
 			;;
+        *)
+            break
+            ;;
 	esac
 done
 
@@ -50,10 +49,10 @@ fi
 
 # Validate system option
 if [[ -z "$system" ]]; then
-	echo -e "\e[31m\`-s\` | \`--system\` option is required.\e[0m" >&2
+	printf "\e[31m\`-s\` | \`--system\` option is required.\e[0m\n" >&2
 	exit 1
 elif [[ "$system" != "windows" && "$system" != "macos" && "$system" != "linux" ]]; then
-	echo -e "\e[31mInvalid \`-s\` | \`--system\` option. It's value must be 'windows', 'macos', or 'linux'.\e[0m" >&2
+	printf "\e[31mInvalid \`-s\` | \`--system\` option. It's value must be 'windows', 'macos', or 'linux'.\e[0m\n" >&2
 	exit 1
 fi
 
@@ -61,7 +60,7 @@ fi
 cd $(cd "$(dirname "$0")/.." && pwd)
 
 if [[ $? -ne 0 ]]; then
-	echo -e "\e[31mFailed to change directory to project root.\e[0m" >&2
+	printf "\e[31mFailed to change directory to project root.\e[0m\n" >&2
 	exit 1
 fi
 
@@ -70,19 +69,19 @@ set -e
 
 # Install tools and set configurations
 case "$system" in
-	"windows")
+	windows)
 		# TODO: Tools installation for Windows
 		# Git
 		cp git/.gitconfig ~/.gitconfig
 		cp git/.gitconfig-windows.local ~/.gitconfig.local
-        echo -e "\e[32m- Git configured.\e[0m"
+        printf "\e[32m- Git configured.\e[0m\n"
 		;;
 
-	"macos" | "linux")
+	macos | linux)
 		# TODO: Tools installation for macOS and Linux
 		# Git
 		cp git/.gitconfig ~/.gitconfig
 		cp git/.gitconfig-macos.local ~/.gitconfig.local
-        echo -e "\e[32m- Git configured.\e[0m"
+        printf "\e[32m- Git configured.\e[0m\n"
 		;;
 esac
