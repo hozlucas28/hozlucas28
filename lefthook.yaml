@@ -5,7 +5,7 @@ pre-commit:
 
   jobs:
     - name: " Format with Oxc"
-      run: pnpm exec oxfmt --no-error-on-unmatched-pattern {staged_files}
+      run: oxfmt --no-error-on-unmatched-pattern {staged_files}
       glob:
         - "*.md"
         - "*.json"

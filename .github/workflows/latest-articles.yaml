@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: write # To update `README.md` file with the latest articles from Medium.
 
     steps:
       - name: Checkout `README.md` file
@@ -24,7 +24,7 @@ jobs:
           sparse-checkout-cone-mode: false
 
       - name: Update latest articles with the new articles from Medium
-        uses: gautamkrishnar/blog-post-workflow@v1
+        uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # 1.9.6
         with:
           template: "$newline- [$title]($url)"
           feed_list: https://medium.com/feed/@hozlucas28
