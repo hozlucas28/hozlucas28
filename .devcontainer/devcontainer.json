@@ -1,69 +1,45 @@
 {
-	"service": "devcontainer",
-	"dockerComposeFile": "compose.yaml",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
-			"version": "latest",
-			"pnpmVersion": "latest"
-		},
-		"ghcr.io/devcontainers-extra/features/uv:1": {
-			"version": "latest"
-		}
-	},
-	"remoteUser": "root",
-	"onCreateCommand": "chmod +x .devcontainer/setup-tools.sh",
-	"postCreateCommand": ".devcontainer/setup-tools.sh",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"GitHub.copilot-chat",
-				"redhat.vscode-yaml",
-				"bierner.markdown-checkbox",
-				"bierner.markdown-preview-github-styles",
-				"streetsidesoftware.code-spell-checker",
-				"streetsidesoftware.code-spell-checker-spanish",
-				"esbenp.prettier-vscode",
-				"oxc.oxc-vscode",
-				"EditorConfig.EditorConfig"
-			],
-			"settings": {
-				"editor.formatOnSave": true,
-				"editor.defaultFormatter": "oxc.oxc-vscode",
-				"telemetry.telemetryLevel": "off",
-				"telemetry.feedback.enabled": false,
-				"files.exclude": {
-					"**/.DS_Store": false,
-					"**/.git": false,
-					"**/.hg": false,
-					"**/.svn": false,
-					"**/Thumbs.db": false,
-					".pnpm-store": true,
-					"node_modules": true,
-					"package.json": true,
-					"pnpm-lock.yaml": true
-				},
-				"search.exclude": {
-					"**/.DS_Store": true,
-					"**/.git": true,
-					"**/.hg": true,
-					"**/.svn": true,
-					"**/Thumbs.db": true,
-					"**/node_modules": true,
-					"**/bower_components": true,
-					"**/*.code-search": true,
-					".pnpm-store": true,
-					"package.json": true,
-					"pnpm-lock.yaml": true
-				},
-				"oxc.fmt.configPath": ".oxfmtrc.json",
-				"yaml.schemas": {
-					"https://raw.githubusercontent.com/docker/vscode-extension/6a88caada42b57090df7ce91ec2a6561b422afe1/misc/empty.json": [
-						".github/workflows/*.yaml"
-					],
-					"https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json": ["resumes/*.yaml"]
-				}
-			}
-		}
-	}
+    "service": "devcontainer",
+    "dockerComposeFile": "compose.yaml",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "initializeCommand": ["bash", "-c", "mkdir --parents $HOME/.ssh; touch $HOME/.ssh/id_ed25519.pub"],
+    "postCreateCommand": "lefthook install && bash scripts/health-check.sh",
+    "mounts": [
+        {
+            "type": "bind",
+            "source": "${localEnv:HOME}${localEnv:USERPROFILE}/.ssh/id_ed25519.pub",
+            "target": "/home/vscode/.ssh/id_ed25519.pub"
+        }
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot-chat",
+                "redhat.vscode-yaml",
+                "bierner.markdown-checkbox",
+                "bierner.markdown-preview-github-styles",
+                "streetsidesoftware.code-spell-checker",
+                "streetsidesoftware.code-spell-checker-spanish",
+                "oxc.oxc-vscode",
+                "docker.docker",
+                "ms-azuretools.vscode-docker",
+                "bierner.markdown-mermaid",
+                "EditorConfig.EditorConfig",
+                "eamodio.gitlens",
+                "github.vscode-github-actions",
+                "pflannery.vscode-versionlens",
+                "bierner.markdown-emoji",
+                "stackbreak.comment-divider"
+            ],
+            "settings": {
+                "editor.defaultFormatter": "oxc.oxc-vscode",
+                "telemetry.telemetryLevel": "off",
+                "telemetry.feedback.enabled": false,
+                "oxc.path.oxfmt": "/home/vscode/.local/share/pnpm/bin/oxfmt",
+                "yaml.schemas": {
+                    "https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json": ["resumes/*.yaml"]
+                }
+            }
+        }
+    }
 }

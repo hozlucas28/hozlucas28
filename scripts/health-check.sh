@@ -18,7 +18,7 @@ while [[ $# -gt 0 ]]; do
 			printf "\e[31mAn invalid option was found!\e[0m\n" >&2
 			exit 1
 			;;
-            
+
         *)
             break
             ;;
@@ -62,10 +62,24 @@ set -e
 exit_code=0
 
 
+if command -v uv > /dev/null 2>&1; then
+	printf "\e[32m- uv $(command_version uv --version) installed.\e[0m\n"
+else
+	printf "\e[31m- uv is not installed or not found in PATH.\e[0m\n" >&2
+	exit_code=1
+fi
+
 if command -v python > /dev/null 2>&1; then
 	printf "\e[32m- Python $(command_version python --version) installed.\e[0m\n"
 else
 	printf "\e[31m- Python is not installed or not found in PATH.\e[0m\n" >&2
+	exit_code=1
+fi
+
+if command -v fnm > /dev/null 2>&1; then
+	printf "\e[32m- fnm $(command_version fnm --version) installed.\e[0m\n"
+else
+	printf "\e[31m- fnm is not installed or not found in PATH.\e[0m\n" >&2
 	exit_code=1
 fi
 
@@ -76,17 +90,10 @@ else
 	exit_code=1
 fi
 
-if command -v uv > /dev/null 2>&1; then
-	printf "\e[32m- uv $(command_version uv --version) installed.\e[0m\n"
+if command -v zizmor > /dev/null 2>&1; then
+	printf "\e[32m- Zizmor $(command_version zizmor --version) installed.\e[0m\n"
 else
-	printf "\e[31m- uv is not installed or not found in PATH.\e[0m\n" >&2
-	exit_code=1
-fi
-
-if pnpm exec oxfmt --version > /dev/null 2>&1; then
-	printf "\e[32m- Oxfmt $(command_version pnpm exec oxfmt --version) installed.\e[0m\n"
-else
-	printf "\e[31m- Oxfmt is not installed.\e[0m\n" >&2
+	printf "\e[31m- Zizmor is not installed or not found in PATH.\e[0m\n" >&2
 	exit_code=1
 fi
 
@@ -94,6 +101,27 @@ if command -v rendercv > /dev/null 2>&1; then
 	printf "\e[32m- RenderCV $(command_version rendercv --version) installed.\e[0m\n"
 else
 	printf "\e[31m- RenderCV is not installed or not found in PATH.\e[0m\n" >&2
+	exit_code=1
+fi
+
+if command -v oxfmt > /dev/null 2>&1; then
+	printf "\e[32m- Oxfmt $(command_version oxfmt --version) installed.\e[0m\n"
+else
+	printf "\e[31m- Oxfmt is not installed or not found in PATH.\e[0m\n" >&2
+	exit_code=1
+fi
+
+if command -v lefthook > /dev/null 2>&1; then
+	printf "\e[32m- Lefthook $(command_version lefthook --version) installed.\e[0m\n"
+else
+	printf "\e[31m- Lefthook is not installed or not found in PATH.\e[0m\n" >&2
+	exit_code=1
+fi
+
+if command -v gh > /dev/null 2>&1; then
+	printf "\e[32m- GitHub CLI $(command_version gh --version) installed.\e[0m\n"
+else
+	printf "\e[31m- GitHub CLI is not installed or not found in PATH.\e[0m\n" >&2
 	exit_code=1
 fi
 
