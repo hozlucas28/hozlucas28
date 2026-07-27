@@ -37,7 +37,7 @@
                 "telemetry.feedback.enabled": false,
                 "oxc.path.oxfmt": "/home/vscode/.local/share/pnpm/bin/oxfmt",
                 "yaml.schemas": {
-                    "https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json": ["resumes/*.yaml"]
+                    "https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json": ["resumes/*.yaml"]
                 }
             }
         }
