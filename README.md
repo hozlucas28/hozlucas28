@@ -6,46 +6,49 @@ As an **advanced Computer Science student**, my philosophy is learning by doing 
 
 If you'd like to get in touch, feel free to write to me.
 
-## 🌐 Socials
+## 🌐 Social networks
 
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2.svg?style=flat&logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/lucashoz/)
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@hozlucas28/)
-[![HackerRank](https://img.shields.io/badge/HackerRank-12100E?logo=hackerrank&logoColor=#d16c06)](https://www.hackerrank.com/profile/hozlucas28)
+[![LinkedIn](docs/assets/badges/linkedin.svg)](https://www.linkedin.com/in/lucashoz)
+[![Medium](docs/assets/badges/medium.svg)](https://medium.com/@hozlucas28)
+[![HackerRank](docs/assets/badges/hackerrank.svg)](https://www.hackerrank.com/profile/hozlucas28)
 
-## 💻 Tech stack
+## 💻 Technology stack
 
-![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-639.svg?style=flat&logo=css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-BC52EE.svg?style=flat&logo=astro&logoColor=white)
-![React.js](https://img.shields.io/badge/React.js-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-black.svg?style=flat&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
-![C](https://img.shields.io/badge/C-%2300599C.svg?style=flat&logo=c&logoColor=white)
-![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=flat&logo=go&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F.svg?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB)
-![Python](https://img.shields.io/badge/Python-3670A0.svg?style=flat&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25.svg?style=flat&logo=gnubash&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white)
-![pnpm](https://img.shields.io/badge/pnpm-F69220.svg?style=flat&logo=pnpm&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000.svg?style=flat&logo=bun&logoColor=white)
-![Microsoft SQL Server](https://custom-icon-badges.demolab.com/badge/Microsoft%20SQL%20Server-CC2927.svg?style=flat&logo=mssqlserver-white&logoColor=white)
-![git](https://img.shields.io/badge/Git-%23F05033.svg?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=flat&logo=docker&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-%23121011.svg?style=flat&logo=githubcopilot&logoColor=white)
-![Renovate](https://img.shields.io/badge/Renovate-1A1F6C?logo=renovate&logoColor=fff)
-![Dependabot](https://img.shields.io/badge/Dependabot-025E8C.svg?style=flat&logo=dependabot&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)
-![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=vsc&logoColor=white)
+![HTML](docs/assets/badges/html.svg)
+![CSS](docs/assets/badges/css.svg)
+![JavaScript](docs/assets/badges/javascript.svg)
+![TypeScript](docs/assets/badges/typescript.svg)
+![Astro](docs/assets/badges/astro.svg)
+![React.js](docs/assets/badges/reactjs.svg)
+![Next.js](docs/assets/badges/nextjs.svg)
+![C](docs/assets/badges/c.svg)
+![Go](docs/assets/badges/go.svg)
+![Bun](docs/assets/badges/bun.svg)
+![Java](docs/assets/badges/java.svg)
+![Python](docs/assets/badges/python.svg)
+![Node.js](docs/assets/badges/nodejs.svg)
+![Express.js](docs/assets/badges/expressjs.svg)
+![Arduino](docs/assets/badges/arduino.svg)
+![Mosquitto](docs/assets/badges/mosquitto.svg)
+![Node-RED](docs/assets/badges/node-red.svg)
+![Microsoft SQL Server](docs/assets/badges/microsoft-sql-server.svg)
+![Bash](docs/assets/badges/bash.svg)
+![pnpm](docs/assets/badges/pnpm.svg)
+![Git](docs/assets/badges/git.svg)
+![Docker](docs/assets/badges/docker.svg)
+![GitHub](docs/assets/badges/github.svg)
+![Renovate](docs/assets/badges/renovate.svg)
+![Dependabot](docs/assets/badges/dependabot.svg)
+![GitHub Actions](docs/assets/badges/github-actions.svg)
+![Claude Code](docs/assets/badges/claude-code.svg)
+![GitHub Copilot](docs/assets/badges/github-copilot.svg)
+![Warp](docs/assets/badges/warp.svg)
+![Visual Studio Code](docs/assets/badges/visual-studio-code.svg)
 
-## 📰 Latest articles
+## 📰 Latest publications
 
 <!-- BLOG-POST-LIST:START -->
+
 - [Design Patterns and SOLID Principles: Foundations for Scalable Systems](https://medium.com/@hozlucas28/design-patterns-and-solid-principles-3aab55adbb01?source=rss-992ce3372c79------2)
 - [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
 - [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)
