@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:ubuntu
+FROM mcr.microsoft.com/devcontainers/base:ubuntu-24.04
 
 USER vscode
 
@@ -20,6 +20,7 @@ ARG rendercv_version=">=2.0.0,<3.0.0"
 ARG oxfmt_version="0"
 ARG lefthook_version="2"
 
+ARG act_version="0.2.89"
 ARG github_cli_version="2.96.0"
 
 # Set PATH for installed binaries
@@ -58,6 +59,12 @@ RUN <<EOF
         --unsafe-perm \
         oxfmt@^${oxfmt_version} \
         lefthook@^${lefthook_version}
+EOF
+
+# Install act
+RUN <<EOF
+    curl --proto '=https' --tlsv1.2 -sSf "https://raw.githubusercontent.com/nektos/act/refs/tags/v${act_version}/install.sh" \
+        | sudo bash
 EOF
 
 # Install GitHub CLI

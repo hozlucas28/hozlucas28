@@ -2,6 +2,12 @@
     "service": "devcontainer",
     "dockerComposeFile": "compose.yaml",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:4": {
+            "version": "latest", // To match the host's Docker version.
+            "dockerDashComposeVersion": "v2"
+        }
+    },
     "initializeCommand": ["bash", "-c", "mkdir --parents $HOME/.ssh; touch $HOME/.ssh/id_ed25519.pub"],
     "postCreateCommand": "lefthook install && bash scripts/health-check.sh",
     "mounts": [
@@ -29,7 +35,8 @@
                 "github.vscode-github-actions",
                 "pflannery.vscode-versionlens",
                 "bierner.markdown-emoji",
-                "stackbreak.comment-divider"
+                "stackbreak.comment-divider",
+                "SanjulaGanepola.github-local-actions"
             ],
             "settings": {
                 "editor.defaultFormatter": "oxc.oxc-vscode",
