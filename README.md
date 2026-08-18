@@ -54,26 +54,26 @@ If we have a mutual fit or would like to discuss an opportunity, [let's connect 
 
 ## 📊 GitHub statistics
 
-<div align="center" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 0.75rem;">
+<div align="center">
   <picture>
     <source srcset="docs/assets/github-statistics/streak-statistics__dark.svg" media="(prefers-color-scheme: dark)"/>
     <source srcset="docs/assets/github-statistics/streak-statistics__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-    <img src="docs/assets/github-statistics/streak-statistics__dark.svg" style="display: block;" height="175" />
+    <img src="docs/assets/github-statistics/streak-statistics__dark.svg" height="131" />
   </picture>
   <picture>
     <source srcset="docs/assets/github-statistics/general-statistics__dark.svg" media="(prefers-color-scheme: dark)"/>
     <source srcset="docs/assets/github-statistics/general-statistics__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-    <img src="docs/assets/github-statistics/general-statistics__dark.svg" style="display: block;" height="176" />
+    <img src="docs/assets/github-statistics/general-statistics__dark.svg" height="131" />
   </picture>
   <picture>
     <source srcset="docs/assets/github-statistics/most-used-languages__dark.svg" media="(prefers-color-scheme: dark)"/>
     <source srcset="docs/assets/github-statistics/most-used-languages__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-    <img src="docs/assets/github-statistics/most-used-languages__dark.svg" style="display: block;" height="201.5" />
+    <img src="docs/assets/github-statistics/most-used-languages__dark.svg" height="150" />
   </picture>
   <picture>
     <source srcset="docs/assets/github-statistics/activity-graph__dark.svg" media="(prefers-color-scheme: dark)"/>
     <source srcset="docs/assets/github-statistics/activity-graph__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-    <img src="docs/assets/github-statistics/activity-graph__dark.svg" style="display: block;" height="200.5" />
+    <img src="docs/assets/github-statistics/activity-graph__dark.svg" height="150" />
   </picture>
 </div>
 
@@ -81,6 +81,6 @@ If we have a mutual fit or would like to discuss an opportunity, [let's connect 
 
 <picture>
   <source srcset="docs/assets/github-statistics/trophies__dark.svg" media="(prefers-color-scheme: dark)"/>
-  <source srcset="docs/assets/github-statistics/trophies__white.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+  <source srcset="docs/assets/github-statistics/trophies__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
   <img align="center" src="docs/assets/github-statistics/trophies__dark.svg" />
 </picture>
