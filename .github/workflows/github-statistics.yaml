@@ -1,0 +1,111 @@
+name: GitHub Statistics
+run-name: Update GitHub statistics
+description: Updates the GitHub statistics cards section of the `README.md` file every day at 23:50, or when manually triggered.
+permissions: {}
+
+on:
+  schedule:
+    - cron: "50 23 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  github-statistics:
+    name: Update GitHub statistics
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # To update `README.md` file with the latest GitHub statistics cards.
+
+    steps:
+      - name: Checkout `README.md` file
+        uses: actions/checkout@v5
+        with:
+          sparse-checkout: README.md
+          persist-credentials: true
+          sparse-checkout-cone-mode: false
+
+      - name: Generate general statistics card (light theme)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          path: docs/assets/github-statistics/general-statistics__light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: username=${{ github.repository_owner }}&hide_title=true&show_icons=true&include_all_commits=true&theme=transparent
+          fail_on_error: true
+
+      - name: Generate general statistics card (dark theme)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          path: docs/assets/github-statistics/general-statistics__dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: username=${{ github.repository_owner }}&hide_title=true&show_icons=true&include_all_commits=true&theme=react&hide_border=true
+          fail_on_error: true
+
+      - name: Generate streak statistics card (light theme)
+        uses: DenverCoder1/github-readme-streak-stats@51cfb8879073b4c016ce6286016de0b14d179077 # v1.7.0
+        with:
+          path: docs/assets/github-statistics/streak-statistics__light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: username=${{ github.repository_owner }}&theme=transparent&mode=weekly
+
+      - name: Generate streak statistics card (dark theme)
+        uses: DenverCoder1/github-readme-streak-stats@51cfb8879073b4c016ce6286016de0b14d179077 # v1.7.0
+        with:
+          path: docs/assets/github-statistics/streak-statistics__dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: username=${{ github.repository_owner }}&theme=react&hide_border=true&mode=weekly
+
+      - name: Generate "Most Used Languages" card (light theme)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: top-langs
+          path: docs/assets/github-statistics/most-used-languages__light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: username=${{ github.repository_owner }}&theme=transparent&include_all_commits=true&count_private=true&layout=compact&langs_count=6
+          fail_on_error: true
+
+      - name: Generate "Most Used Languages" card (dark theme)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: top-langs
+          path: docs/assets/github-statistics/most-used-languages__dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: username=${{ github.repository_owner }}&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=6
+          fail_on_error: true
+
+      - name: Generate trophies card (light theme)
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f # SHA not tagged.
+        with:
+          file: docs/assets/github-statistics/trophies__light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: transparent
+          username: hozlucas28
+          no-frame: false
+          margin-width: 4
+          no-background: false
+
+      - name: Generate trophies card (dark theme)
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f # SHA not tagged.
+        with:
+          file: docs/assets/github-statistics/trophies__dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: discord
+          username: hozlucas28
+          no-frame: true
+          margin-width: 4
+          no-background: false
+
+      - name: Commit and push GitHub statistics cards
+        if: ${{ env.ACT != 'true' }}
+        run: |
+          git config user.name "hozlucas28"
+          git config user.email "hozlucas28@gmail.com"
+          git add docs/assets/github-statistics/*.svg
+          git commit -m "docs(assets): update GitHub statistics cards" || exit 0
+          git push
+
+concurrency:
+  group: github-statistics
+  cancel-in-progress: true

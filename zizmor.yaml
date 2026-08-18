@@ -1,7 +1,8 @@
 rules:
   artipacked:
     ignore:
-      - latest-articles.yaml
+      - github-statistics.yaml
+      - latest-publications.yaml
 
   unpinned-uses:
     config:
