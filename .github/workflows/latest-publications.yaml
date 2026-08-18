@@ -1,0 +1,44 @@
+name: Latest Publications
+run-name: Update latest publications
+description: Updates the latest publications section of the `README.md` file every day at midnight.
+permissions: {}
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  latest-publications:
+    name: Update latest publications
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # To update `README.md` file with the latest publications from Medium.
+
+    steps:
+      - name: Checkout `README.md` file
+        uses: actions/checkout@v5
+        with:
+          sparse-checkout: README.md
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+
+      - name: Update latest publications with the new publications from Medium
+        id: update-latest-publications
+        uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # v1.9.7
+        with:
+          template: "$newline- [$title]($url)"
+          feed_list: https://medium.com/feed/@hozlucas28
+          item_exec: if (/art[ií]culo en ingl[eé]s/i.test(post.fullContent)) post = null;
+          skip_commit: ${{ env.ACT == 'true' }}
+          custom_tags: "fullContent/content:encoded/"
+          commit_message: "docs(`README.md`): update latest publications"
+          max_post_count: 4
+          committer_email: hozlucas28@gmail.com
+          committer_username: hozlucas28
+
+concurrency:
+  group: latest-publications
+  cancel-in-progress: true
