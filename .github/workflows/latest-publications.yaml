@@ -31,7 +31,7 @@ jobs:
         with:
           template: "$newline- [$title]($url)"
           feed_list: https://medium.com/feed/@hozlucas28
-          item_exec: if (/art[ií]culo en ingl[eé]s/i.test(post.fullContent)) post = null;
+          item_exec: if (/art[ií]culo\sen\singl[eé]s/i.test(post.fullContent)) post = null;
           skip_commit: ${{ env.ACT == 'true' }}
           custom_tags: "fullContent/content:encoded/"
           commit_message: "docs(`README.md`): update latest publications"
