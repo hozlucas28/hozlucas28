@@ -1,10 +1,8 @@
-## 💫 About me
+## 💫 About
 
-👋 Hi! I'm Lucas, a developer who enjoys designing **fluid user experiences** on the Frontend as much as creating **robust architectures** on the Backend. I am obsessed with building scalable, maintainable, and efficient software.
+I build Full Stack software with a focus on scalable systems, combining 4+ years of experience and personal projects in Go, Node.js, and React. I apply Clean Architecture, Test Driven Development (TDD), and SOLID principles, and integrate GenAI into my daily workflow to accelerate the software development lifecycle (SDLC).
 
-As an **advanced Computer Science student**, my philosophy is learning by doing and sharing. My technical curiosity has led me to specialize in modern architectures, diving deep into **high-performance Frontend and Backend ecosystems**.
-
-If you'd like to get in touch, feel free to write to me.
+If we have a mutual fit or would like to discuss an opportunity, [let's connect on LinkedIn](https://www.linkedin.com/in/lucashoz).
 
 ## 🌐 Social networks
 
