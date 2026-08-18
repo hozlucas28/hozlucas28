@@ -58,22 +58,22 @@ If we have a mutual fit or would like to discuss an opportunity, [let's connect 
   <picture>
     <source srcset="docs/assets/github-statistics/streak-statistics__dark.svg" media="(prefers-color-scheme: dark)"/>
     <source srcset="docs/assets/github-statistics/streak-statistics__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-    <img src="docs/assets/github-statistics/streak-statistics__dark.svg" height="131" />
+    <img src="docs/assets/github-statistics/streak-statistics__dark.svg" height="155" />
   </picture>
   <picture>
     <source srcset="docs/assets/github-statistics/general-statistics__dark.svg" media="(prefers-color-scheme: dark)"/>
     <source srcset="docs/assets/github-statistics/general-statistics__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-    <img src="docs/assets/github-statistics/general-statistics__dark.svg" height="131" />
+    <img src="docs/assets/github-statistics/general-statistics__dark.svg" height="155" />
   </picture>
   <picture>
     <source srcset="docs/assets/github-statistics/most-used-languages__dark.svg" media="(prefers-color-scheme: dark)"/>
     <source srcset="docs/assets/github-statistics/most-used-languages__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-    <img src="docs/assets/github-statistics/most-used-languages__dark.svg" height="150" />
+    <img src="docs/assets/github-statistics/most-used-languages__dark.svg" height="178" />
   </picture>
   <picture>
     <source srcset="docs/assets/github-statistics/activity-graph__dark.svg" media="(prefers-color-scheme: dark)"/>
     <source srcset="docs/assets/github-statistics/activity-graph__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-    <img src="docs/assets/github-statistics/activity-graph__dark.svg" height="150" />
+    <img src="docs/assets/github-statistics/activity-graph__dark.svg" height="178" />
   </picture>
 </div>
 
