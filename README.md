@@ -52,34 +52,35 @@ If we have a mutual fit or would like to discuss an opportunity, [let's connect 
 - [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)
 - [GitHub Actions — Process Automation](https://medium.com/@hozlucas28/github-actions-process-automation-f49ccf9860a8?source=rss-992ce3372c79------2)<!-- BLOG-POST-LIST:END -->
 
-## 📊 GitHub stats
+## 📊 GitHub statistics
 
-<div align="center">
-    <picture>
-        <source srcset="https://hozlucas28-github-stats.vercel.app/api?username=hozlucas28&theme=react&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide=stars,issues" media="(prefers-color-scheme: dark)"/>
-        <source srcset="https://hozlucas28-github-stats.vercel.app/api?username=hozlucas28&theme=transparent&show_icons=true&include_all_commits=true&count_private=true&hide=stars,issues" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-        <img src="https://hozlucas28-github-stats.vercel.app/api?username=hozlucas28&theme=react&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide=stars,issues" />
-    </picture>
-    <br/>
-    <picture>
-        <source srcset="https://hozlucas28-github-streak-stats.vercel.app?user=hozlucas28&theme=react&hide_border=true" media="(prefers-color-scheme: dark)"/>
-        <source srcset="https://hozlucas28-github-streak-stats.vercel.app?user=hozlucas28&theme=transparent" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-        <img src="https://hozlucas28-github-streak-stats.vercel.app?user=hozlucas28&theme=react&hide_border=true" />
-    </picture>
-    <br/>
-    <picture>
-        <source srcset="https://hozlucas28-github-stats.vercel.app/api/top-langs/?username=hozlucas28&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=6" media="(prefers-color-scheme: dark)"/>
-        <source srcset="https://hozlucas28-github-stats.vercel.app/api/top-langs/?username=hozlucas28&theme=transparent&include_all_commits=true&count_private=true&layout=compact&langs_count=6" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-        <img src="https://hozlucas28-github-stats.vercel.app/api/top-langs/?username=hozlucas28&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=6" />
-    </picture>
+<div align="center" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 0.75rem;">
+  <picture>
+    <source srcset="docs/assets/github-statistics/streak-statistics__dark.svg" media="(prefers-color-scheme: dark)"/>
+    <source srcset="docs/assets/github-statistics/streak-statistics__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+    <img src="docs/assets/github-statistics/streak-statistics__dark.svg" style="display: block;" height="175" />
+  </picture>
+  <picture>
+    <source srcset="docs/assets/github-statistics/general-statistics__dark.svg" media="(prefers-color-scheme: dark)"/>
+    <source srcset="docs/assets/github-statistics/general-statistics__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+    <img src="docs/assets/github-statistics/general-statistics__dark.svg" style="display: block;" height="176" />
+  </picture>
+  <picture>
+    <source srcset="docs/assets/github-statistics/most-used-languages__dark.svg" media="(prefers-color-scheme: dark)"/>
+    <source srcset="docs/assets/github-statistics/most-used-languages__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+    <img src="docs/assets/github-statistics/most-used-languages__dark.svg" style="display: block;" height="201.5" />
+  </picture>
+  <picture>
+    <source srcset="docs/assets/github-statistics/activity-graph__dark.svg" media="(prefers-color-scheme: dark)"/>
+    <source srcset="docs/assets/github-statistics/activity-graph__light.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+    <img src="docs/assets/github-statistics/activity-graph__dark.svg" style="display: block;" height="200.5" />
+  </picture>
 </div>
 
 ## 🏆 GitHub trophies
 
-<div align="center">
-    <picture>
-        <source srcset="https://hozlucas28-github-trophies.vercel.app/?username=hozlucas28&theme=discord&no-frame=true&no-bg=false&margin-w=4" media="(prefers-color-scheme: dark)"/>
-        <source srcset="https://hozlucas28-github-trophies.vercel.app/?username=hozlucas28&theme=transparent&no-frame=false&no-bg=false&margin-w=4" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-        <img src="https://hozlucas28-github-trophies.vercel.app/?username=hozlucas28&theme=discord&no-frame=true&no-bg=false&margin-w=4" />
-    </picture>
-</div>
+<picture>
+  <source srcset="docs/assets/github-statistics/trophies__dark.svg" media="(prefers-color-scheme: dark)"/>
+  <source srcset="docs/assets/github-statistics/trophies__white.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
+  <img align="center" src="docs/assets/github-statistics/trophies__dark.svg" />
+</picture>
