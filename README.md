@@ -47,9 +47,9 @@ If you'd like to get in touch, feel free to write to me.
 
 <!-- BLOG-POST-LIST:START -->
 - [Design Patterns and SOLID Principles: Foundations for Scalable Systems](https://medium.com/@hozlucas28/design-patterns-and-solid-principles-3aab55adbb01?source=rss-992ce3372c79------2)
-- [Patrones de Diseño y Principios SOLID: Bases para Sistemas Escalables](https://medium.com/@hozlucas28/patrones-de-diseno-y-principios-solid-e1046f279faf?source=rss-992ce3372c79------2)
 - [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
-- [DevContainers](https://medium.com/@hozlucas28/devcontainers-8919c58915bb?source=rss-992ce3372c79------2)<!-- BLOG-POST-LIST:END -->
+- [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)
+- [GitHub Actions — Process Automation](https://medium.com/@hozlucas28/github-actions-process-automation-f49ccf9860a8?source=rss-992ce3372c79------2)<!-- BLOG-POST-LIST:END -->
 
 ## 📊 GitHub stats
 
