@@ -25,94 +25,93 @@ jobs:
           persist-credentials: true
           sparse-checkout-cone-mode: false
 
-      - parallel:
-          - name: Generate general statistics card (light theme)
-            uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
-            with:
-              card: stats
-              path: docs/assets/github-statistics/general-statistics__light.svg
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              options: username=${{ github.repository_owner }}&hide_title=true&show_icons=true&include_all_commits=true&theme=transparent
-              fail_on_error: true
+      - name: Generate general statistics card (light theme)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          path: docs/assets/github-statistics/general-statistics__light.svg
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          options: username=${{ github.repository_owner }}&hide_title=true&show_icons=true&include_all_commits=true&theme=transparent
+          fail_on_error: true
 
-          - name: Generate general statistics card (dark theme)
-            uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
-            with:
-              card: stats
-              path: docs/assets/github-statistics/general-statistics__dark.svg
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              options: username=${{ github.repository_owner }}&hide_title=true&show_icons=true&include_all_commits=true&theme=react&hide_border=true
-              fail_on_error: true
+      - name: Generate general statistics card (dark theme)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          path: docs/assets/github-statistics/general-statistics__dark.svg
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          options: username=${{ github.repository_owner }}&hide_title=true&show_icons=true&include_all_commits=true&theme=react&hide_border=true
+          fail_on_error: true
 
-          - name: Generate streak statistics card (light theme)
-            uses: DenverCoder1/github-readme-streak-stats@51cfb8879073b4c016ce6286016de0b14d179077 # v1.7.0
-            with:
-              path: docs/assets/github-statistics/streak-statistics__light.svg
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              options: username=${{ github.repository_owner }}&theme=transparent&mode=weekly
+      - name: Generate streak statistics card (light theme)
+        uses: DenverCoder1/github-readme-streak-stats@51cfb8879073b4c016ce6286016de0b14d179077 # v1.7.0
+        with:
+          path: docs/assets/github-statistics/streak-statistics__light.svg
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          options: username=${{ github.repository_owner }}&theme=transparent&mode=weekly
 
-          - name: Generate streak statistics card (dark theme)
-            uses: DenverCoder1/github-readme-streak-stats@51cfb8879073b4c016ce6286016de0b14d179077 # v1.7.0
-            with:
-              path: docs/assets/github-statistics/streak-statistics__dark.svg
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              options: username=${{ github.repository_owner }}&theme=react&hide_border=true&mode=weekly
+      - name: Generate streak statistics card (dark theme)
+        uses: DenverCoder1/github-readme-streak-stats@51cfb8879073b4c016ce6286016de0b14d179077 # v1.7.0
+        with:
+          path: docs/assets/github-statistics/streak-statistics__dark.svg
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          options: username=${{ github.repository_owner }}&theme=react&hide_border=true&mode=weekly
 
-          - name: Generate "Most Used Languages" card (light theme)
-            uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
-            with:
-              card: top-langs
-              path: docs/assets/github-statistics/most-used-languages__light.svg
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              options: username=${{ github.repository_owner }}&theme=transparent&include_all_commits=true&count_private=true&layout=compact&langs_count=6
-              fail_on_error: true
+      - name: Generate "Most Used Languages" card (light theme)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: top-langs
+          path: docs/assets/github-statistics/most-used-languages__light.svg
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          options: username=${{ github.repository_owner }}&theme=transparent&include_all_commits=true&count_private=true&layout=compact&langs_count=6
+          fail_on_error: true
 
-          - name: Generate "Most Used Languages" card (dark theme)
-            uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
-            with:
-              card: top-langs
-              path: docs/assets/github-statistics/most-used-languages__dark.svg
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              options: username=${{ github.repository_owner }}&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=6
-              fail_on_error: true
+      - name: Generate "Most Used Languages" card (dark theme)
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: top-langs
+          path: docs/assets/github-statistics/most-used-languages__dark.svg
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          options: username=${{ github.repository_owner }}&theme=react&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=6
+          fail_on_error: true
 
-          - name: Generate activity graph card (light theme)
-            uses: maurodesouza/github-readme-activity-graph-action@6411849745757299611a795fef822a31ca8d1d02 # v1.0.0
-            with:
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              options: theme=github-compact&area_color=006aff&area=true&days=30&custom_title=Contributions%20Graph&radius=12&color=006aff
-              username: hozlucas28
-              output_path: docs/assets/github-statistics/activity-graph__light.svg
+      - name: Generate activity graph card (light theme)
+        uses: maurodesouza/github-readme-activity-graph-action@6411849745757299611a795fef822a31ca8d1d02 # v1.0.0
+        with:
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          options: theme=github-compact&area_color=006aff&area=true&days=30&custom_title=Contributions%20Graph&radius=12&color=006aff
+          username: hozlucas28
+          output_path: docs/assets/github-statistics/activity-graph__light.svg
 
-          - name: Generate activity graph card (dark theme)
-            uses: maurodesouza/github-readme-activity-graph-action@6411849745757299611a795fef822a31ca8d1d02 # v1.0.0
-            with:
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              options: theme=react&area=true&days=30&custom_title=Contributions%20Graph&hide_border=true&radius=12
-              username: hozlucas28
-              output_path: docs/assets/github-statistics/activity-graph__dark.svg
+      - name: Generate activity graph card (dark theme)
+        uses: maurodesouza/github-readme-activity-graph-action@6411849745757299611a795fef822a31ca8d1d02 # v1.0.0
+        with:
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          options: theme=react&area=true&days=30&custom_title=Contributions%20Graph&hide_border=true&radius=12
+          username: hozlucas28
+          output_path: docs/assets/github-statistics/activity-graph__dark.svg
 
-          - name: Generate trophies card (light theme)
-            uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f # SHA not tagged.
-            with:
-              file: docs/assets/github-statistics/trophies__light.svg
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              theme: flat
-              username: hozlucas28
-              no-frame: false
-              margin-width: 4
-              no-background: false
+      - name: Generate trophies card (light theme)
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f # SHA not tagged.
+        with:
+          file: docs/assets/github-statistics/trophies__light.svg
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          theme: flat
+          username: hozlucas28
+          no-frame: false
+          margin-width: 4
+          no-background: false
 
-          - name: Generate trophies card (dark theme)
-            uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f # SHA not tagged.
-            with:
-              file: docs/assets/github-statistics/trophies__dark.svg
-              token: ${{ secrets.STATISTICS_TOKEN }}
-              theme: discord
-              username: hozlucas28
-              no-frame: true
-              margin-width: 4
-              no-background: false
+      - name: Generate trophies card (dark theme)
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f # SHA not tagged.
+        with:
+          file: docs/assets/github-statistics/trophies__dark.svg
+          token: ${{ secrets.STATISTICS_TOKEN }}
+          theme: discord
+          username: hozlucas28
+          no-frame: true
+          margin-width: 4
+          no-background: false
 
       - name: Commit and push GitHub statistics cards
         if: ${{ env.ACT != 'true' }}
