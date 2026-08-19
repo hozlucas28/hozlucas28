@@ -8,3 +8,8 @@ rules:
     config:
       policies:
         actions/*: ref-pin
+
+  secrets-outside-env:
+    config:
+      allow:
+        - STATISTICS_TOKEN
