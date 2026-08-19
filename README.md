@@ -46,7 +46,6 @@ If we have a mutual fit or would like to discuss an opportunity, [let's connect 
 ## 📰 Latest publications
 
 <!-- BLOG-POST-LIST:START -->
-
 - [Design Patterns and SOLID Principles: Foundations for Scalable Systems](https://medium.com/@hozlucas28/design-patterns-and-solid-principles-3aab55adbb01?source=rss-992ce3372c79------2)
 - [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
 - [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)
