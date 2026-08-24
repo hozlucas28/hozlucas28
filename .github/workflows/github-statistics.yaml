@@ -116,8 +116,8 @@ jobs:
       - name: Commit and push GitHub statistics cards
         if: ${{ env.ACT != 'true' }}
         run: |
-          git config user.name "hozlucas28"
-          git config user.email "hozlucas28@gmail.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/assets/github-statistics/*.svg
           git commit -m "docs(assets): update GitHub statistics cards" || exit 0
           git push
