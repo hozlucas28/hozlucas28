@@ -46,10 +46,10 @@ If we have a mutual fit or would like to discuss an opportunity, [let's connect 
 ## 📰 Latest publications
 
 <!-- BLOG-POST-LIST:START -->
+- [GitHub and GitHub Actions Hardening](https://medium.com/@hozlucas28/github-and-github-actions-hardening-1e23df1311cb?source=rss-992ce3372c79------2)
 - [Design Patterns and SOLID Principles: Foundations for Scalable Systems](https://medium.com/@hozlucas28/design-patterns-and-solid-principles-3aab55adbb01?source=rss-992ce3372c79------2)
 - [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
-- [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)
-- [GitHub Actions — Process Automation](https://medium.com/@hozlucas28/github-actions-process-automation-f49ccf9860a8?source=rss-992ce3372c79------2)<!-- BLOG-POST-LIST:END -->
+- [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)<!-- BLOG-POST-LIST:END -->
 
 ## 📊 GitHub statistics
 
