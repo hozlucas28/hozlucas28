@@ -1,0 +1,10 @@
+#:schema https://json.schemastore.org/ruff.json
+
+line-length = 120
+indent-width = 4
+
+[format]
+line-ending = "lf"
+indent-style = "space"
+quote-style = "double"
+skip-magic-trailing-comma = true

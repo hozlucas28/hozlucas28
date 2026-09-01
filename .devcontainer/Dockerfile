@@ -14,6 +14,7 @@ ARG python_version="3"
 ARG fnm_version="1.39.0"
 ARG nodejs_version="24"
 
+ARG ruff_version=">=0.0.0,<1.0.0"
 ARG zizmor_version=">=1.0.0,<2.0.0"
 ARG rendercv_version=">=2.0.0,<3.0.0"
 
@@ -50,6 +51,7 @@ RUN <<EOF
 EOF
 
 # Install packages
+RUN uv tool install ruff${ruff_version}
 RUN uv tool install zizmor${zizmor_version}
 RUN uv tool install rendercv[full]${rendercv_version}
 

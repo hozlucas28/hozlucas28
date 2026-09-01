@@ -4,6 +4,11 @@ pre-commit:
   parallel: true
 
   jobs:
+    - name: " Format with Ruff"
+      run: ruff format --color=never {staged_files}
+      glob: "*.py"
+      stage_fixed: true
+
     - name: " Format with Oxc"
       run: oxfmt --no-error-on-unmatched-pattern {staged_files}
       glob:

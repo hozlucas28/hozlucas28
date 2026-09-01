@@ -36,10 +36,23 @@
                 "pflannery.vscode-versionlens",
                 "bierner.markdown-emoji",
                 "stackbreak.comment-divider",
-                "SanjulaGanepola.github-local-actions"
+                "SanjulaGanepola.github-local-actions",
+                "ms-python.python",
+                "ms-python.debugpy",
+                "ms-python.vscode-python-envs",
+                "ms-python.vscode-pylance",
+                "charliermarsh.ruff",
+                "tamasfe.even-better-toml"
             ],
             "settings": {
                 "editor.defaultFormatter": "oxc.oxc-vscode",
+                "[python]": {
+                    "editor.defaultFormatter": "charliermarsh.ruff",
+                    "editor.codeActionsOnSave": {
+                        "source.fixAll.ruff": "explicit",
+                        "source.organizeImports.ruff": "explicit"
+                    }
+                },
                 "telemetry.telemetryLevel": "off",
                 "telemetry.feedback.enabled": false,
                 "oxc.path.oxfmt": "/home/vscode/.local/share/pnpm/bin/oxfmt",

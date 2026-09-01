@@ -90,6 +90,13 @@ else
 	exit_code=1
 fi
 
+if command -v ruff > /dev/null 2>&1; then
+	printf "\e[32m- Ruff $(command_version ruff --version) installed.\e[0m\n"
+else
+	printf "\e[31m- Ruff is not installed or not found in PATH.\e[0m\n" >&2
+	exit_code=1
+fi
+
 if command -v zizmor > /dev/null 2>&1; then
 	printf "\e[32m- Zizmor $(command_version zizmor --version) installed.\e[0m\n"
 else
