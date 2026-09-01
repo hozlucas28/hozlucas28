@@ -5,7 +5,7 @@ locale:
   months: meses
   year: año
   years: años
-  present: presente
+  present: Presente
   phrases:
     degree_with_area: DEGREE en AREA
   month_abbreviations:
