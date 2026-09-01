@@ -1,0 +1,265 @@
+cv:
+  name: Lucas Hoz
+  headline: Software Engineer FullStack
+  location: Buenos Aires, Argentina
+  custom_connections:
+    - fontawesome_icon: email
+      url:
+      placeholder: hozlucas28@gmail.com
+    - fontawesome_icon: linkedin
+      url:
+      placeholder: "[linkedin.com/in/lucashoz](https://www.linkedin.com/in/lucashoz)"
+    - fontawesome_icon: github
+      url:
+      placeholder: "[github.com/hozlucas28](https://github.com/hozlucas28)"
+    - fontawesome_icon: medium
+      url:
+      placeholder: "[medium.com/@hozlucas28](https://medium.com/@hozlucas28)"
+    - fontawesome_icon: code
+      url:
+      placeholder: "[hackerrank.com/hozlucas28](https://www.hackerrank.com/hozlucas28)"
+  sections:
+    Perfil profesional:
+      - "**Software Engineer FullStack con +4 años** de experiencia profesional y
+        desarrollo autodidacta en Go, Node.js y React. Diseño sistemas backend
+        escalables aplicando Clean Architecture, TDD y SOLID, integrando GenAI
+        en mi flujo diario para acelerar el ciclo de vida del desarrollo de
+        software. Además, contribuyo a proyectos open source de Mercado Libre."
+    Logros destacables:
+      - bullet: "**Contribuciones a Mercado Libre:** Reduje los riesgos técnicos en proyectos de Mercado Libre, logrando que 7 de 14 pull requests fueran mergeadas por sus equipos de ingeniería, al detectar y proponer proactivamente iniciativas de seguridad."
+      - bullet: "**Liderazgo técnico**: Lideré un equipo de 8 desarrolladores
+          estableciendo estándares de code review, reduciendo la deuda  técnica
+          y sosteniendo la estabilidad del servidor bajo alta concurrencia de requests."
+      - bullet: "**Contribuciones open source**: Desarrollé +90 repositorios (+4.600 contribuciones) y creé +230 pull requests, contribuyendo con la divulgación y mantenimiento de código open source."
+      - bullet: "**Divulgación técnica**: Publiqué 6 artículos técnicos sobre
+          sistemas escalables, patrones de diseño, CI/CD y seguridad,
+          compartiendo mis conocimientos con la comunidad de arquitectos de software y desarrolladores."
+      - bullet: '**Resolución de problemas**: Alcancé el 5° puesto entre +1.300
+          desarrolladores en el roadmap "Retos de Programación" y obtuve la
+          insignia de platino en el Advent of TypeScript (2 años
+          consecutivos), reflejando mi constancia y dominio técnico.'
+      - bullet: "**Capacitación internacional**: Capacité a 8 desarrolladores en
+          Git, GitHub y SQF, cerrando la brecha de conocimiento técnico y
+          profesionalizando el flujo de trabajo en un equipo internacional."
+    Experiencia:
+      - position: Software Developer
+        company: Desarrollo Autodidacta & Open Source
+        start_date: 2022-04
+        summary: "Período de formación intensiva en paralelo a la carrera de Ingeniería
+          Informática. Enfocado en profundizar en arquitecturas backend
+          escalables, patrones de diseño y TDD, certificando y contribuyendo a
+          proyectos open source."
+        highlights:
+          - Reduje riesgos técnicos en proyectos de Mercado Libre,
+            logrando que **7** de **14** pull requests fueran mergeadas
+            por sus equipos de ingeniería, al detectar y proponer
+            proactivamente iniciativas de seguridad.
+          - Desarrollé **+90** repositorios (**+4.600**
+            contribuciones) y creé **+230** pull requests en GitHub, aplicando
+            algoritmos y estructuras de datos en Go, TypeScript y Python, compartiendo mis conocimientos con la comunidad.
+          - Incorporé herramientas de desarrollo asistido por IA a mi flujo de
+            trabajo para acelerar el ciclo de vida del desarrollo de software
+            (SDLC), certificándome en su uso y capacitándome continuamente.
+          - Redacté **6** artículos técnicos sobre prevención de ataques a la
+            cadena de suministro, sistemas escalables, principios SOLID,
+            patrones de diseño, CI/CD y DevContainers, implementando estas prácticas en mi día a día.
+      - position: Software Engineer
+        company: FCLA
+        start_date: 2020-11
+        end_date: 2022-04
+        highlights:
+          - Reduje la deuda técnica y sostuve la estabilidad del servidor ante
+            alta concurrencia liderando un equipo de **8** desarrolladores
+            mediante estándares de calidad y un proceso de code review.
+          - Elevé el nivel técnico del equipo capacitando a **8**
+            desarrolladores de distintos países en Git, GitHub y SQF,
+            profesionalizando el flujo de trabajo de todo el equipo.
+          - Sostuve la fluidez del servidor bajo alta demanda diagnosticando y
+            resolviendo cuellos de botella de rendimiento en el stack C++ y SQF, mitigando las fallas de sincronización de cliente a servidor.
+      - position: Full Stack Developer
+        company: FCLA
+        start_date: 2019-10
+        end_date: 2020-11
+        highlights:
+          - Reduje los tiempos de integración del equipo
+            introduciendo Git y GitHub como herramientas para el control de
+            versiones, reemplazando la gestión manual de archivos y mejorando la comunicación entre departamentos.
+          - Lancé nuevos proyectos y funcionalidades participando en sprints
+            semanales bajo metodologías ágiles, colaborando con diseñadores y
+            desarrolladores para alcanzar las metas propuestas para cada sprint.
+    Proyectos:
+      - name: "[Sistema IoT de Control de Stock y Seguridad Integrado con una Aplicación Android](https://github.com/hozlucas28/SOA-Practical-Work-2026)"
+        date: 2026-07
+        summary: Sistema para comercios que sustituye los conteos manuales de inventario por monitoreo en tiempo real, con una ESP32 que detecta variaciones de peso y las notifica vía MQTT y Node-RED a una aplicación Android.
+      - name: "[Automatización de Análisis de Datos con Scripting](https://github.com/hozlucas28/APL-Practical-Work-2025)"
+        date: 2025-09
+        summary: Scripts en Bash y PowerShell que analizan encuestas, optimizan rutas de transporte y procesan logs de sistema, consumiendo una API externa con cacheo local e incorporando un proceso demonio que audita repositorios de Git.
+      - name: "[Sistema de Crafteo con Testing y Patrones de Diseño](https://github.com/hozlucas28/Java-Practical-Work-2025)"
+        date: 2025-07
+        summary: Sistema de crafteo desarrollado en Java que modela objetos jerárquicos extensibles mediante patrones Builder y Composite, con una capa de razonamiento lógico en Prolog y cobertura completa de pruebas unitarias y E2E en JUnit.
+      - name: "[Tatetí con Inteligencia Artificial](https://github.com/hozlucas28/C-Algorithms-Practical-Work-2025)"
+        date: 2025-02
+        summary: Motor de Tatetí de bajo nivel desarrollado en C, con una IA como oponente y estructuras de datos avanzadas, gestiona la memoria dinámica manualmente e integra una API externa para persistir los datos.
+      - name: "[Simulación del Juego de la Vida de Conway](https://github.com/hozlucas28/C-Practical-Work-2024)"
+        date: 2024-10
+        summary: Recreación del Juego de la Vida de Conway desarrollada en C, con un renderizado en tiempo real construido sobre SDL, una grilla configurable por argumentos con manejo de memoria dinámica y una interfaz responsive.
+      - name: "[Generador de Cartas Pokémon](https://pokemon-cards-ochre.vercel.app/)"
+        date: 2023-05
+        summary: Aplicación web en React que consume la PokéAPI para coleccionar cartas, persistiendo los resultados en el almacenamiento local del navegador, con navegación vía React Router, notificaciones en vivo y diseño responsive.
+      - name: "[Panel de Administración para Gestionar un Supermercado](https://github.com/hozlucas28/Codo-Codo-Back-end-Project-2022)"
+        date: 2022-12
+        summary: Panel que digitaliza la gestión de un supermercado, antes manual, mediante un CRUD completo en JSP y MySQL para empleados y productos, con filtros de búsqueda dinámicos, notificaciones en Bootstrap y validación de formularios.
+    Educación:
+      - degree: Grado
+        area: Ingeniería en Informática
+        institution: UNLaM
+        start_date: 2020-03
+      - degree: Ingles B2
+        area: Lengua y Literatura Inglesa
+        institution: Instituto Pickwick
+        start_date: 2010-04
+        end_date: 2019-12
+      - degree: Bachiller
+        area: Ciencias Sociales
+        institution: Escuela San Juan Bautista
+        start_date: 2017-03
+        end_date: 2019-11
+    Certificaciones:
+      - position: "[Claude Code 101](https://verify.skilljar.com/c/6fgfo77r2wqw)"
+        company: Anthropic
+        date: 2026-08
+      - position: "[Claude Code in Action](https://verify.skilljar.com/c/a3ohmoag6b7u)"
+        company: Anthropic
+        date: 2026-08
+      - position: "[Software Engineer](https://www.hackerrank.com/certificates/f19c531324ae)"
+        company: HackerRank
+        date: 2026-04
+      - position: "[Go (Intermediate)](https://www.hackerrank.com/certificates/5ff6f0eb412c)"
+        company: HackerRank
+        date: 2026-03
+      - position: "[REST API (Intermediate)](https://www.hackerrank.com/certificates/b83e78d1128f)"
+        company: HackerRank
+        date: 2026-03
+      - position: "[Node.js (Intermediate)](https://www.hackerrank.com/certificates/399c80830196)"
+        company: HackerRank
+        date: 2026-03
+      - position: "[SQL (Advanced)](https://www.hackerrank.com/certificates/563ac79f3d4e)"
+        company: HackerRank
+        date: 2026-04
+      - position: "[Frontend Developer (React)](https://www.hackerrank.com/certificates/a83ef4ad340b)"
+        company: HackerRank
+        date: 2026-04
+      - position: "[JavaScript (Intermediate)](https://www.hackerrank.com/certificates/10a3b2b6a106)"
+        company: HackerRank
+        date: 2026-04
+      - position: "[Problem Solving (Intermediate)](https://www.hackerrank.com/certificates/3ae68bd7894f)"
+        company: HackerRank
+        date: 2026-04
+      - position: "[React Design Patterns](https://www.linkedin.com/learning/certificates/bc625a88ce5934334f6f86a907f3220efa8bba53e7dafd099db7ea0d9d5433eb)"
+        company: LinkedIn
+        date: 2024-04
+      - position: "[Introduction to Data Science](https://www.credly.com/badges/d7da2799-fbf6-4f8c-9c73-e429bef82c52/public_url)"
+        company: Cisco
+        date: 2023-11
+      - position: "[Codo a Codo 4.0 - Especialización en React](https://drive.google.com/file/d/1DlZB5DoFk9Jx0yVKhyh-T1VfOPc67V5J/view?usp=sharing)"
+        company: Gobierno de la Ciudad de Buenos Aires
+        date: 2023-07
+      - position: "[Inglés Técnico Enfocado en el Sector IT](https://drive.google.com/file/d/1W_5rHk84zo-56juSUG2OeVCDBRdV3Bva/view?usp=sharing)"
+        company: Pearson
+        date: 2023-07
+      - position: "[Fundamentos Profesionales del Desarrollo de Software](https://www.linkedin.com/learning/certificates/a922a83badbd2faf7a131dc594300b59b335ff75bdc91c9466d9850049ac74d8)"
+        company: Microsoft
+        date: 2023-07
+      - position: "[TypeScript Avanzado](https://www.linkedin.com/learning/certificates/56c98bc89e5bb94d5dbd9ad730088aa6388e6c418bbe11eac52ce2145eeb57d0)"
+        company: LinkedIn
+        date: 2023-05
+      - position: "[Figma Avanzado](https://www.linkedin.com/learning/certificates/a6c32e9abe16a70eae304f290f9c328d08970e3192b67e5210d5f86f78039723)"
+        company: LinkedIn
+        date: 2023-04
+      - position: "[Experiencia de Usuario (UX) Avanzado](https://www.linkedin.com/learning/certificates/d14aadd9a1f73c6afe9a18e80b126abc99adb77e7cd25297cf9c3a3f71d2a489)"
+        company: LinkedIn
+        date: 2023-04
+      - position: "[Diseño de Interfaz de Usuario (UI) Avanzado](https://www.linkedin.com/learning/certificates/a93c310c5322b1c125760b5b5384f8e39ce9049360eed6c1bdb7909b1681abc3)"
+        company: LinkedIn
+        date: 2023-04
+      - position: "[Programación y Desarrollo Web](https://www.udemy.com/certificate/UC-015c1f88-9cda-4680-ae7d-08c1ab2969eb)"
+        company: Udemy
+        date: 2023-03
+      - position: "[Learning Git and GitHub](https://www.linkedin.com/learning/certificates/c9a395b934caf9ab6fb7045e7111ff5d97af47c12c0646f2bf4a337f05a96796)"
+        company: LinkedIn
+        date: 2023-02
+      - position: "[HTML y CSS](https://www.udemy.com/certificate/UC-019af578-0690-4c22-b2a3-2cfd15c46bcb)"
+        company: Udemy
+        date: 2023-01
+      - position: "[React Hooks, React Router, Redux y Next.js](https://www.udemy.com/certificate/UC-02f6177c-90ff-433c-aba2-1d0a51a76e7c)"
+        company: Udemy
+        date: 2023-01
+      - position: "[Codo a Codo 4.0 - Full Stack Java Developer](https://drive.google.com/file/d/1hFMdNQOdPVNLBtZGlyd3FrkY95OcXDEz/view?usp=sharing)"
+        company: Gobierno de la Ciudad de Buenos Aires
+        date: 2022-12
+      - position: "[Soft Skills](https://drive.google.com/file/d/17h7teZd0Dz4Y0dM6PLW0zTJXD9kEzjLb/view?usp=drivesdk)"
+        company: Accenture
+        date: 2022-11
+      - position: "[Git y GitHub Desde cero](https://www.udemy.com/certificate/UC-d0d700b8-f7e1-4ee9-a694-6fd9eaba133e)"
+        company: Udemy
+        date: 2022-07
+    Habilidades:
+      - label: Tecnologías
+        details: Go, Docker, Node.js, Express.js, SQL, GitHub Actions (CI/CD), DevContainers, React.js, TypeScript,
+          HTML, CSS, JavaScript, Java, Python, NoSQL, Git, Generative Artificial Intelligence (GenAI) y LLMs.
+      - label: Prácticas de ingeniería
+        details: Clean Architecture, Test Driven Development (TDD), RESTful APIs y patrones de diseño.
+    Publicaciones:
+      - title: "[Hardening de GitHub y GitHub Actions: Cómo Prevenir Supply Chain
+          Attacks](https://medium.com/@hozlucas28/hardening-de-github-y-github-actions-53c5e063dd07)"
+        date: 2026-08
+        authors:
+          - Lucas Hoz
+        summary: Prácticas recomendadas para prevenir ataques a la cadena de suministro en
+          workflows de GitHub Actions y casos reales que dañaron la reputación de organizaciones e incluso las llevaron a la quiebra.
+      - title: "[SOLID y Patrones de Diseño: Bases para Sistemas Backend Escalables](https://medium.com/@hozlucas28/patrones-de-diseno-y-principios-solid-e1046f279faf)"
+        date: 2026-08
+        authors:
+          - Lucas Hoz
+        summary: Cómo aplicar los principios SOLID junto a los patrones Strategy, Factory
+          Method, Observer y Decorator para construir sistemas backend que
+          toleran cambios sin reescribir su código por completo.
+      - title: "[DevContainers: Cómo Estandarizar Entornos de Desarrollo con Docker](https://medium.com/@hozlucas28/devcontainers-8919c58915bb)"
+        date: 2026-01
+        authors:
+          - Lucas Hoz
+        summary: Guía para estandarizar las herramientas de un equipo de desarrollo utilizando DevContainers,
+          agilizando el onboarding de nuevos desarrolladores y y garantizando que lo que corre en local funcione en producción.
+      - title: "[GitHub Actions (CI/CD): Automatizando la Revisión de Pull Requests](https://medium.com/@hozlucas28/github-actions-automatizaci%C3%B3n-de-procesos-76091edd06af)"
+        date: 2024-02
+        authors:
+          - Lucas Hoz
+        summary: Cómo implementar pipelines de GitHub Actions para
+          automatizar la revisión de Pull Requests, liberando el tiempo de
+          ingenieros senior para que se dediquen a decisiones de diseño y arquitectura.
+    Reconocimientos y premios:
+      - position: "[66° Posición](https://github.com/hozlucas28/AdventJS-Solutions-2025)"
+        company: AdventJS
+        date: 2025-12
+        url: https://github.com/hozlucas28/AdventJS-Solutions-2025
+        summary: Obtuve la máxima puntuación en 23 desafíos algorítmicos de JavaScript, TypeScript y Python.
+      - position: "[5° Posición](https://retosdeprogramacion.com/roadmap/ranking)"
+        company: Roadmap "Retos de Programación"
+        date: 2024-12
+        summary: Competí contra **+1.300** desarrolladores resolviendo desafíos algorítmicos en Go, TypeScript y Python.
+      - position: "[Insignia de Platino](https://github.com/hozlucas28/AdventTS-Solutions-2024)"
+        company: Advent of TypeScript
+        date: 2024-12
+        summary: Obtuve la máxima puntuación en 25 desafíos de tipado estático avanzado y tipado condicional en TypeScript.
+      - position: "[Máxima Puntuación](https://github.com/hozlucas28/AdventJS-Solutions-2024)"
+        company: AdventJS
+        date: 2024-12
+        summary: Resolví 25 desafíos de algoritmia en JavaScript, TypeScript y Python.
+      - position: "[150° Posición](https://github.com/hozlucas28/AdventJS-Solutions-2023)"
+        company: AdventJS
+        date: 2023-12
+        summary: Competí contra **+3.000** desarrolladores en desafíos algorítmicos de JavaScript, obteniendo la máxima puntuación.
+      - position: "[Insignia de Platino](https://github.com/hozlucas28/AdventTS-Solutions-2023)"
+        company: Advent of TypeScript
+        date: 2023-12
+        summary: Competí contra **+14.000** desarrolladores resolviendo 25 desafíos de tipado estático avanzado en TypeScript.
