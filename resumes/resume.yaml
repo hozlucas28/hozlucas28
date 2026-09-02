@@ -1,3 +1,5 @@
+# TODO:
+#   - Una vez renderizado, releer todo el documento.
 cv:
   name: Lucas Hoz
   headline: Software Engineer Full Stack
@@ -20,111 +22,77 @@ cv:
       placeholder: "[hackerrank.com/hozlucas28](https://www.hackerrank.com/hozlucas28)"
   sections:
     Professional profile:
-      - "**Full Stack Software Engineer with +4 years** of professional experience
-        and self-taught development in Go, Node.js, and React. I design scalable
-        backend systems applying Clean Architecture, TDD, and SOLID, integrating
-        GenAI into my daily workflow to accelerate the software development
-        lifecycle. I also contribute to Mercado Libre's open source projects."
+      - "**Full Stack Software Engineer with 4+ years** of professional experience and self-taught expertise in Go, Node.js, and React. I design scalable backend systems applying Clean Architecture, TDD, and SOLID, integrating GenAI into my daily workflow to accelerate the software development lifecycle. I have also contributed to Mercado Libre's open source projects."
     Notable achievements:
-      - bullet: "**Contributions to Mercado Libre:** Reduced technical risk on Mercado Libre projects, getting 7 of 14 pull requests merged by their engineering teams, by proactively detecting and proposing security initiatives."
-      - bullet: "**Technical leadership**: Led a team of 8 developers
-          establishing code review standards, reducing technical debt,
-          and sustaining server stability under high request concurrency."
-      - bullet: "**Open source contributions**: Developed +90 repositories (+4,600 contributions) and created +230 pull requests, contributing to the dissemination and maintenance of open source code."
-      - bullet: "**Technical outreach**: Published 6 technical articles on
-          scalable systems, design patterns, CI/CD, and security,
-          sharing my knowledge with the community of software architects and developers."
-      - bullet: '**Problem solving**: Reached 5th place among +1,300
-          developers in the "Programming Challenges" roadmap and earned the
-          platinum badge in Advent of TypeScript (2 consecutive years),
-          reflecting my consistency and technical mastery.'
-      - bullet: "**International training**: Trained 8 developers in
-          Git, GitHub, and SQF, closing the technical knowledge gap and
-          professionalizing the workflow on an international team."
+      - bullet: "**Contributions to Mercado Libre:** Reduced technical risks in Mercado Libre projects, resulting in 7 out of 14 pull requests being merged by their engineering teams, by proactively detecting and proposing security initiatives."
+      - bullet: "**Technical leadership**: Led a team of 8 developers by defining code review standards, which reduced technical debt and maintained server stability under high request concurrency."
+      - bullet: "**Open source contributions**: Developed 90+ repositories (4,600+ contributions) and created 230+ pull requests on GitHub, publishing and maintaining open source code."
+      - bullet: "**Technical outreach**: Published 6 technical articles on scalable systems, design patterns, CI/CD, and security, sharing my knowledge with the software architecture and development community."
+      - bullet: '**Problem solving**: Reached 5th place among 1,300+ developers in the "Retos de Programación" roadmap and earned the platinum badge in Advent of TypeScript (2 consecutive years), reflecting my consistency and technical mastery.'
+      - bullet: "**International training**: Trained 8 developers in Git, GitHub, and SQF, reducing the technical gap and standardizing the team's workflows."
     Experience:
       - position: Software Developer
         company: Self-Taught Development & Open Source
         start_date: 2022-04
-        summary: "Intensive training period alongside my Computer Engineering
-          degree. Focused on deepening my knowledge of scalable backend
-          architectures, design patterns, and TDD, earning certifications and
-          contributing to open source projects."
+        summary: "Period of intensive training alongside my Computer Engineering degree. Focused on deepening my knowledge of scalable backend architectures, design patterns, and TDD, earning certifications and contributing to open source projects."
         highlights:
-          - Reduced technical risk on Mercado Libre projects,
-            getting **7** of **14** pull requests merged
-            by their engineering teams, by proactively detecting and
-            proposing security initiatives.
-          - Developed **+90** repositories (**+4,600**
-            contributions) and created **+230** pull requests on GitHub, applying
-            algorithms and data structures in Go, TypeScript, and Python, sharing my knowledge with the community.
-          - Incorporated AI-assisted development tools into my
-            workflow to accelerate the software development lifecycle
-            (SDLC), earning certifications in their use and continuously training myself.
-          - Wrote **6** technical articles on preventing supply
-            chain attacks, scalable systems, SOLID principles,
-            design patterns, CI/CD, and DevContainers, implementing these practices in my day-to-day work.
+          - Reduced technical risks in Mercado Libre projects, resulting in **7** out of **14** pull requests being merged by their engineering teams, by proactively detecting and proposing security initiatives.
+          - Developed **90+** repositories (**4,600+** contributions) and created **230+** pull requests on GitHub, applying algorithms and data structures in Go, TypeScript, and Python, sharing my knowledge with the community.
+          - Incorporated AI assisted development tools to accelerate the software development lifecycle (SDLC), complementing their use with official certifications and continuous learning.
+          - Wrote **6** technical articles on preventing supply chain attacks, scalable systems, SOLID principles, design patterns, and DevContainers, implementing these practices in my daily  workflow.
       - position: Software Engineer
         company: FCLA
         start_date: 2020-11
         end_date: 2022-04
         highlights:
-          - Reduced technical debt and sustained server stability under
-            high concurrency by leading a team of **8** developers
-            through quality standards and a code review process.
-          - Raised the team's technical level by training **8**
-            developers from different countries in Git, GitHub, and SQF,
-            professionalizing the workflow of the entire team.
-          - Sustained server fluidity under high demand by diagnosing and
-            resolving performance bottlenecks in the C++ and SQF stack, mitigating client-to-server synchronization failures.
+          - Reduced technical debt and sustained server stability under high concurrency by leading a team of **8** developers through quality standards and a code review process.
+          - Raised the team's technical level by training 8 international developers in Git, GitHub, and SQF, thereby professionalizing the workflow.
+          - Ensured server performance and stability by resolving bottlenecks in C++ and SQF, mitigating synchronization failures between the client and server.
       - position: Full Stack Developer
         company: FCLA
         start_date: 2019-10
         end_date: 2020-11
         highlights:
-          - Reduced team integration times by
-            introducing Git and GitHub as version control tools,
-            replacing manual file management and improving communication between departments.
-          - Launched new projects and features by participating in weekly
-            sprints under agile methodologies, collaborating with designers and
-            developers to achieve the goals set for each sprint.
+          - Reduced integration times by adopting Git and GitHub for version control, replacing manual file management and optimizing communication between departments.
+          - Launched new projects and features by participating in weekly sprints under agile methodologies, collaborating with designers and developers to achieve each sprint's goals.
     Projects:
       - name: "[IoT Stock Control and Security System Integrated with an Android Application](https://github.com/hozlucas28/SOA-Practical-Work-2026)"
         date: 2026-07
         summary: System for businesses that replaces manual inventory counts with real-time monitoring, using an ESP32 that detects weight variations and reports them via MQTT and Node-RED to an Android application.
       - name: "[Data Analysis Automation with Scripting](https://github.com/hozlucas28/APL-Practical-Work-2025)"
         date: 2025-09
-        summary: Bash and PowerShell scripts that analyze surveys, optimize transportation routes, and process system logs, consuming an external API with local caching and incorporating a daemon process that audits Git repositories.
+        summary: Bash and PowerShell scripts that analyze surveys, optimize transportation routes, process system logs, consume an external API with local caching, and include a background process that audits Git repositories.
       - name: "[Crafting System with Testing and Design Patterns](https://github.com/hozlucas28/Java-Practical-Work-2025)"
         date: 2025-07
         summary: Crafting system developed in Java that models extensible hierarchical objects using the Builder and Composite patterns, with a logical reasoning layer in Prolog and full unit and E2E test coverage in JUnit.
       - name: "[Tic-Tac-Toe with Artificial Intelligence](https://github.com/hozlucas28/C-Algorithms-Practical-Work-2025)"
         date: 2025-02
-        summary: Low-level Tic-Tac-Toe engine developed in C, with an AI opponent and advanced data structures, manually managing dynamic memory and integrating an external API to persist data.
+        summary: Low level Tic-Tac-Toe engine developed in C with an AI opponent and advanced data structures, manually managing dynamic memory and integrating an external API to persist data.
       - name: "[Conway's Game of Life Simulation](https://github.com/hozlucas28/C-Practical-Work-2024)"
         date: 2024-10
-        summary: Recreation of Conway's Game of Life developed in C, with real-time rendering built on SDL, an argument-configurable grid with dynamic memory management, and a responsive interface.
+        summary: Recreation of Conway's Game of Life developed in C, with real-time rendering built on SDL, a grid configurable via arguments with dynamic memory management, and a responsive interface.
       - name: "[Pokémon Card Generator](https://pokemon-cards-ochre.vercel.app/)"
         date: 2023-05
-        summary: React web application that consumes the PokéAPI to collect cards, persisting results in browser local storage, with navigation via React Router, live notifications, and responsive design.
-      - name: "[Admin Panel for Managing a Supermarket](https://github.com/hozlucas28/Codo-Codo-Back-end-Project-2022)"
+        summary: React web application that consumes the PokéAPI to collect cards, persists results in the browser's local storage, and features navigation via React Router, real-time notifications, and responsive design.
+      - name: "[Supermarket Management Panel](https://github.com/hozlucas28/Codo-Codo-Back-end-Project-2022)"
         date: 2022-12
-        summary: Panel that digitizes the previously manual management of a supermarket, through a full CRUD in JSP and MySQL for employees and products, with dynamic search filters, Bootstrap notifications, and form validation.
+        summary: Panel that digitizes a previously manual supermarket management process through a complete CRUD in JSP and MySQL for employees and products, with dynamic search filters, Bootstrap notifications, and form validation.
     Education:
-      - degree: Bachelor's degree
-        area: Computer Engineering
+      - degree: Bachelor's Degree
+        area: Computer Science
         institution: UNLaM
         start_date: 2020-03
       - degree: English B2
         area: English Language and Literature
-        institution: Instituto Pickwick
+        institution: Pickwick Institute
         start_date: 2010-04
         end_date: 2019-12
-      - degree: High school diploma
+      - degree: High School Diploma
         area: Social Sciences
-        institution: Escuela San Juan Bautista
+        institution: San Juan Bautista School
         start_date: 2017-03
         end_date: 2019-11
-    Certifications:
+    Certificates:
       - position: "[Claude Code 101](https://verify.skilljar.com/c/6fgfo77r2wqw)"
         company: Anthropic
         date: 2026-08
@@ -149,10 +117,10 @@ cv:
       - position: "[Frontend Developer (React)](https://www.hackerrank.com/certificates/a83ef4ad340b)"
         company: HackerRank
         date: 2026-04
-      - position: "[JavaScript (Intermediate)](https://www.hackerrank.com/certificates/10a3b2b6a106)"
+      - position: "[Problem Solving (Intermediate)](https://www.hackerrank.com/certificates/3ae68bd7894f)"
         company: HackerRank
         date: 2026-04
-      - position: "[Problem Solving (Intermediate)](https://www.hackerrank.com/certificates/3ae68bd7894f)"
+      - position: "[JavaScript (Intermediate)](https://www.hackerrank.com/certificates/10a3b2b6a106)"
         company: HackerRank
         date: 2026-04
       - position: "[React Design Patterns](https://www.linkedin.com/learning/certificates/bc625a88ce5934334f6f86a907f3220efa8bba53e7dafd099db7ea0d9d5433eb)"
@@ -161,8 +129,8 @@ cv:
       - position: "[Introduction to Data Science](https://www.credly.com/badges/d7da2799-fbf6-4f8c-9c73-e429bef82c52/public_url)"
         company: Cisco
         date: 2023-11
-      - position: "[Codo a Codo 4.0 - React Specialization](https://drive.google.com/file/d/1DlZB5DoFk9Jx0yVKhyh-T1VfOPc67V5J/view?usp=sharing)"
-        company: Buenos Aires City Government
+      - position: "[React Specialization](https://drive.google.com/file/d/1DlZB5DoFk9Jx0yVKhyh-T1VfOPc67V5J/view?usp=sharing)"
+        company: Government of the City of Buenos Aires
         date: 2023-07
       - position: "[Technical English Focused on the IT Sector](https://drive.google.com/file/d/1W_5rHk84zo-56juSUG2OeVCDBRdV3Bva/view?usp=sharing)"
         company: Pearson
@@ -194,72 +162,64 @@ cv:
       - position: "[React Hooks, React Router, Redux, and Next.js](https://www.udemy.com/certificate/UC-02f6177c-90ff-433c-aba2-1d0a51a76e7c)"
         company: Udemy
         date: 2023-01
-      - position: "[Codo a Codo 4.0 - Full Stack Java Developer](https://drive.google.com/file/d/1hFMdNQOdPVNLBtZGlyd3FrkY95OcXDEz/view?usp=sharing)"
-        company: Buenos Aires City Government
+      - position: "[Full Stack Java Developer](https://drive.google.com/file/d/1hFMdNQOdPVNLBtZGlyd3FrkY95OcXDEz/view?usp=sharing)"
+        company: Government of the City of Buenos Aires
         date: 2022-12
       - position: "[Soft Skills](https://drive.google.com/file/d/17h7teZd0Dz4Y0dM6PLW0zTJXD9kEzjLb/view?usp=drivesdk)"
         company: Accenture
         date: 2022-11
-      - position: "[Git and GitHub from Scratch](https://www.udemy.com/certificate/UC-d0d700b8-f7e1-4ee9-a694-6fd9eaba133e)"
+      - position: "[Git and GitHub From Scratch](https://www.udemy.com/certificate/UC-d0d700b8-f7e1-4ee9-a694-6fd9eaba133e)"
         company: Udemy
         date: 2022-07
     Skills:
       - label: Technologies
-        details: Go, Docker, Node.js, Express.js, SQL, GitHub Actions (CI/CD), DevContainers, React.js, TypeScript,
-          HTML, CSS, JavaScript, Java, Python, NoSQL, Git, Generative Artificial Intelligence (GenAI), and LLMs.
+        details: Go, Docker, Node.js, Express.js, SQL, GitHub Actions (CI/CD), DevContainers, React.js, TypeScript, HTML, CSS, JavaScript, Java, Python, Git, Generative Artificial Intelligence (GenAI) and LLMs.
       - label: Engineering practices
         details: Clean Architecture, Test Driven Development (TDD), RESTful APIs, and design patterns.
     Publications:
-      - title: "[Hardening GitHub and GitHub Actions: How to Prevent Supply Chain
-          Attacks](https://medium.com/@hozlucas28/github-and-github-actions-hardening-1e23df1311cb)"
+      - title: "[Hardening GitHub and GitHub Actions: How to Prevent Supply Chain Attacks](https://medium.com/@hozlucas28/github-and-github-actions-hardening-1e23df1311cb)"
         date: 2026-08
         authors:
           - Lucas Hoz
-        summary: Recommended practices for preventing supply chain attacks in
-          GitHub Actions workflows, and real cases that damaged organizations' reputations and even drove them into bankruptcy.
-      - title: "[SOLID and Design Patterns: Foundations for Scalable Backend Systems](https://medium.com/@hozlucas28/design-patterns-and-solid-principles-3aab55adbb01)"
+        summary: Recommended practices to prevent supply chain attacks in GitHub Actions workflows and real world cases that damaged organizations' reputations and even drove them into bankruptcy.
+      - title: "[SOLID and Design Patterns: Foundations for Scalable Systems](https://medium.com/@hozlucas28/design-patterns-and-solid-principles-3aab55adbb01)"
         date: 2026-08
         authors:
           - Lucas Hoz
-        summary: How to apply SOLID principles together with the Strategy, Factory
-          Method, Observer, and Decorator patterns to build backend systems that
-          tolerate change without rewriting their code from scratch.
+        summary: How to apply SOLID principles together with the Strategy, Factory Method, Observer, and Decorator patterns to build backend systems capable of tolerating change without a complete rewrite.
       - title: "[DevContainers: How to Standardize Development Environments with Docker](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0)"
         date: 2026-01
         authors:
           - Lucas Hoz
-        summary: A guide to standardizing a development team's tooling using DevContainers,
-          streamlining onboarding for new developers and ensuring that what runs locally works in production.
+        summary: Guide to standardizing the development environment with DevContainers, in order to speed up onboarding for new engineers and ensure parity between local and production environments.
       - title: "[GitHub Actions (CI/CD): Automating Pull Request Review](https://medium.com/@hozlucas28/github-actions-process-automation-f49ccf9860a8)"
         date: 2024-02
         authors:
           - Lucas Hoz
-        summary: How to implement GitHub Actions pipelines to
-          automate pull request review, freeing up senior engineers' time
-          to focus on design and architecture decisions.
-    Awards and recognitions:
+        summary: How to implement GitHub Actions pipelines to automate pull request review, freeing up senior engineers' time to focus on design and architecture decisions.
+    Recognitions and awards:
       - position: "[66th Place](https://github.com/hozlucas28/AdventJS-Solutions-2025)"
         company: AdventJS
         date: 2025-12
         url: https://github.com/hozlucas28/AdventJS-Solutions-2025
-        summary: Achieved the highest score in 23 algorithmic challenges in JavaScript, TypeScript, and Python.
+        summary: Achieved the maximum score in 23 algorithmic challenges in JavaScript, TypeScript, and Python.
       - position: "[5th Place](https://retosdeprogramacion.com/roadmap/ranking)"
-        company: '"Programming Challenges" Roadmap'
+        company: '"Retos de Programación" Roadmap'
         date: 2024-12
-        summary: Competed against **+1,300** developers solving algorithmic challenges in Go, TypeScript, and Python.
+        summary: Competed against **1,300+** developers solving algorithmic challenges in Go, TypeScript, and Python.
       - position: "[Platinum Badge](https://github.com/hozlucas28/AdventTS-Solutions-2024)"
         company: Advent of TypeScript
         date: 2024-12
-        summary: Achieved the highest score in 25 advanced static typing and conditional typing challenges in TypeScript.
-      - position: "[Highest Score](https://github.com/hozlucas28/AdventJS-Solutions-2024)"
+        summary: Achieved the maximum score in 25 advanced static and conditional typing challenges in TypeScript.
+      - position: "[Maximum Score](https://github.com/hozlucas28/AdventJS-Solutions-2024)"
         company: AdventJS
         date: 2024-12
         summary: Solved 25 algorithmic challenges in JavaScript, TypeScript, and Python.
       - position: "[150th Place](https://github.com/hozlucas28/AdventJS-Solutions-2023)"
         company: AdventJS
         date: 2023-12
-        summary: Competed against **+3,000** developers in JavaScript algorithmic challenges, achieving the highest score.
+        summary: Competed against **3,000+** developers in JavaScript algorithmic challenges, achieving the maximum score.
       - position: "[Platinum Badge](https://github.com/hozlucas28/AdventTS-Solutions-2023)"
         company: Advent of TypeScript
         date: 2023-12
-        summary: Competed against **+14,000** developers solving 25 advanced static typing challenges in TypeScript.
+        summary: Competed against **14,000+** developers solving 25 advanced static typing challenges in TypeScript.
