@@ -13,7 +13,7 @@ Status = TypedDict("Status", {"message": str})
 
 def generate_resume(resume: Path, design: Path, locale: Path, output: Path, message_queue: Queue[Status]) -> None:
     resume_name: str = resume.stem.upper() if resume.stem == "cv" else resume.stem.capitalize()
-    pdf_path: Path = output / f"Lucas-Hoz-{resume_name}__{design.stem}.pdf"
+    pdf_path: Path = output / f"Lucas-Hoz-{resume_name}.pdf"
 
     try:
         subprocess.run(
@@ -75,7 +75,7 @@ def main() -> None:
                 resumes_directory / "resume.yaml",
                 design,
                 locales_directory / "english.yaml",
-                output_directory,
+                output_directory / design.stem,
                 queue,
             ),
         )
