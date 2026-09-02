@@ -44,7 +44,7 @@ cv:
         start_date: 2020-11
         end_date: 2022-04
         highlights:
-          - Reduje la deuda técnica y sostuve la estabilidad del servidor ante alta concurrencia liderando un equipo de **8** desarrolladores mediante estándares de calidad y un proceso de code review.
+          - Reduje la deuda técnica y sostuve la estabilidad del servidor frente a una alta concurrencia de peticiones, liderando un equipo de 8 desarrolladores mediante estándares de calidad y un proceso de code review.
           - Elevé el nivel técnico del equipo mediante la capacitación de 8 desarrolladores internacionales en Git, GitHub y SQF, profesionalizando así el flujo de trabajo.
           - Aseguré el rendimiento y la estabilidad del servidor al resolver cuellos de botella en C++ y SQF, mitigando las fallas de sincronización entre el cliente y el servidor.
       - position: FullStack Developer
@@ -53,7 +53,7 @@ cv:
         end_date: 2020-11
         highlights:
           - Reduje los tiempos de integración mediante la adopción de Git y GitHub para el control de versiones, reemplazando la gestión manual de archivos y optimizando la comunicación entre departamentos.
-          - Lancé nuevos proyectos y funcionalidades participando en sprints semanales bajo metodologías ágiles, colaborando con diseñadores y desarrolladores para alcanzar las metas propuestas para cada sprint.
+          - Lancé nuevos proyectos y funcionalidades participando en sprints semanales bajo metodologías ágiles, colaborando estrechamente con diseñadores y desarrolladores para alcanzar las metas propuestas para cada sprint.
     Proyectos:
       - name: "[Sistema IoT de Control de Stock y Seguridad Integrado con una Aplicación Android](https://github.com/hozlucas28/SOA-Practical-Work-2026)"
         date: 2026-07

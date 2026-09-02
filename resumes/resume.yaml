@@ -45,7 +45,7 @@ cv:
         start_date: 2020-11
         end_date: 2022-04
         highlights:
-          - Reduced technical debt and sustained server stability under high concurrency by leading a team of **8** developers through quality standards and a code review process.
+          - Reduced technical debt and sustained server stability under high request concurrency by leading a team of **8** developers through quality standards and a code review process.
           - Raised the team's technical level by training 8 international developers in Git, GitHub, and SQF, thereby professionalizing the workflow.
           - Ensured server performance and stability by resolving bottlenecks in C++ and SQF, mitigating synchronization failures between the client and server.
       - position: Full Stack Developer
@@ -54,7 +54,7 @@ cv:
         end_date: 2020-11
         highlights:
           - Reduced integration times by adopting Git and GitHub for version control, replacing manual file management and optimizing communication between departments.
-          - Launched new projects and features by participating in weekly sprints under agile methodologies, collaborating with designers and developers to achieve each sprint's goals.
+          - Launched new projects and features by participating in weekly sprints under agile methodologies, collaborating closely with designers and developers to achieve each sprint's goals.
     Projects:
       - name: "[IoT Stock Control and Security System Integrated with an Android Application](https://github.com/hozlucas28/SOA-Practical-Work-2026)"
         date: 2026-07
