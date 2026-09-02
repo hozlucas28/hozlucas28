@@ -27,8 +27,8 @@ def generate_resume(resume: Path, design: Path, locale: Path, output: Path, mess
                 str(object=locale),
                 "--pdf-path",
                 str(object=pdf_path),
-                "--output-folder",
-                str(object=tempfile.gettempdir()),
+                "--typst-path",
+                str(object=Path(tempfile.gettempdir()) / pdf_path.stem),
                 "--dont-generate-png",
                 "--dont-generate-html",
                 "--dont-generate-markdown",
@@ -36,6 +36,7 @@ def generate_resume(resume: Path, design: Path, locale: Path, output: Path, mess
             ],
             check=True,
             stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
         )
 
         message_queue.put({"message": f'\033[32m- Resume "{pdf_path.name}" generated successfully.\033[0m'})
