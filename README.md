@@ -1,8 +1,8 @@
 ## 💫 About
 
-I build Full Stack software with a focus on scalable systems, combining 4+ years of experience and personal projects in Go, Node.js, and React. I apply Clean Architecture, Test Driven Development (TDD), and SOLID principles, and integrate GenAI into my daily workflow to accelerate the software development lifecycle (SDLC).
+I develop Full Stack software with focus on scalable backend systems, combining 4+ years of professional experience with self-taught development on personal projects in Go, Node.js, and React. I apply Clean Architecture, Test Driven Development (TDD), and SOLID principles, and integrate GenAI into my daily workflow to accelerate the software development lifecycle (SDLC).
 
-If we have a mutual fit or would like to discuss an opportunity, [let's connect on LinkedIn](https://www.linkedin.com/in/lucashoz).
+If we have common ground or you'd like to discuss an opportunity, [let's connect on LinkedIn](https://www.linkedin.com/in/lucashoz).
 
 ## 🌐 Social networks
 
@@ -46,6 +46,7 @@ If we have a mutual fit or would like to discuss an opportunity, [let's connect 
 ## 📰 Latest publications
 
 <!-- BLOG-POST-LIST:START -->
+
 - [GitHub and GitHub Actions Hardening](https://medium.com/@hozlucas28/github-and-github-actions-hardening-1e23df1311cb?source=rss-992ce3372c79------2)
 - [Design Patterns and SOLID Principles: Foundations for Scalable Systems](https://medium.com/@hozlucas28/design-patterns-and-solid-principles-3aab55adbb01?source=rss-992ce3372c79------2)
 - [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
