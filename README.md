@@ -46,7 +46,6 @@ If we have common ground or you'd like to discuss an opportunity, [let's connect
 ## 📰 Latest publications
 
 <!-- BLOG-POST-LIST:START -->
-
 - [GitHub and GitHub Actions Hardening](https://medium.com/@hozlucas28/github-and-github-actions-hardening-1e23df1311cb?source=rss-992ce3372c79------2)
 - [Design Patterns and SOLID Principles: Foundations for Scalable Systems](https://medium.com/@hozlucas28/design-patterns-and-solid-principles-3aab55adbb01?source=rss-992ce3372c79------2)
 - [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
