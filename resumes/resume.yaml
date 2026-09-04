@@ -177,6 +177,11 @@ cv:
       - label: Engineering practices
         details: Clean Architecture, Test Driven Development (TDD), RESTful APIs, and design patterns.
     Publications:
+      - title: "[Race Conditions in Distributed Systems: How to Avoid Them in Go](https://medium.com/@hozlucas28/race-conditions-in-distributed-systems-6363d22b9720)"
+        date: 2026-09
+        authors:
+          - Lucas Hoz
+        summary: Strategies in Go to mitigate race conditions in distributed architectures, ensuring idempotency and atomicity in business critical operations to prevent financial losses.
       - title: "[Hardening GitHub and GitHub Actions: How to Prevent Supply Chain Attacks](https://medium.com/@hozlucas28/github-and-github-actions-hardening-1e23df1311cb)"
         date: 2026-08
         authors:

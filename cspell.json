@@ -3,6 +3,7 @@
     "useGitignore": true,
     "language": "es, es-ES, en, en-us, en-gb, lorem, lorem-ipsum",
     "words": [
+        "atomicidad",
         "capacitándome",
         "certificándome",
         "crafteo",
@@ -17,6 +18,7 @@
         "github",
         "hackerrank",
         "hozlucas",
+        "idempotencia",
         "lefthook",
         "linkedin",
         "linux",
