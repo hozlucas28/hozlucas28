@@ -46,10 +46,10 @@ If we have common ground or you'd like to discuss an opportunity, [let's connect
 ## 📰 Latest publications
 
 <!-- BLOG-POST-LIST:START -->
+- [Race Conditions in Distributed Systems: How to Avoid Them in Go](https://medium.com/@hozlucas28/race-conditions-in-distributed-systems-6363d22b9720?source=rss-992ce3372c79------2)
 - [GitHub and GitHub Actions Hardening](https://medium.com/@hozlucas28/github-and-github-actions-hardening-1e23df1311cb?source=rss-992ce3372c79------2)
 - [Design Patterns and SOLID Principles: Foundations for Scalable Systems](https://medium.com/@hozlucas28/design-patterns-and-solid-principles-3aab55adbb01?source=rss-992ce3372c79------2)
-- [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)
-- [Differences between User Experience &lpar;UX&rpar; and User Interface &lpar;UI&rpar;](https://medium.com/@hozlucas28/differences-between-user-experience-ux-and-user-interface-ui-27938a63268c?source=rss-992ce3372c79------2)<!-- BLOG-POST-LIST:END -->
+- [DevContainers](https://medium.com/@hozlucas28/devcontainers-aba451bd24a0?source=rss-992ce3372c79------2)<!-- BLOG-POST-LIST:END -->
 
 ## 📊 GitHub statistics
 
