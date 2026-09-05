@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Lucas Hoz&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 17, Total Commits  : 7724, Total PRs: 237, Total Issues: 48, Contributed to (last year): 9</desc>
+        <desc id="descId">Total Stars Earned: 17, Total Commits  : 7728, Total PRs: 237, Total Issues: 48, Contributed to (last year): 9</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 79.63523522351367;
+        stroke-dashoffset: 79.63468667321696;
       }
     }
   
