@@ -3,21 +3,21 @@ cv:
   headline: Software Engineer FullStack
   location: Buenos Aires, Argentina
   custom_connections:
-    - placeholder: hozlucas28@gmail.com
-      fontawesome_icon: square-envelope
+    - fontawesome_icon: email
       url:
-    - placeholder: "[linkedin.com/in/lucashoz](https://www.linkedin.com/in/lucashoz)"
-      fontawesome_icon: linkedin
+      placeholder: hozlucas28@gmail.com
+    - fontawesome_icon: linkedin
       url:
-    - placeholder: "[github.com/hozlucas28](https://github.com/hozlucas28)"
-      fontawesome_icon: github
+      placeholder: "[linkedin.com/in/lucashoz](https://www.linkedin.com/in/lucashoz)"
+    - fontawesome_icon: github
       url:
-    # - placeholder: "[medium.com/@hozlucas28](https://medium.com/@hozlucas28)"
-    #   fontawesome_icon: medium
-    #   url:
-    # - placeholder: "[hackerrank.com/hozlucas28](https://www.hackerrank.com/hozlucas28)"
-    #   fontawesome_icon: hackerrank
-    #   url:
+      placeholder: "[github.com/hozlucas28](https://github.com/hozlucas28)"
+    - fontawesome_icon: medium
+      url:
+      placeholder: "[medium.com/@hozlucas28](https://medium.com/@hozlucas28)"
+    - fontawesome_icon: code
+      url:
+      placeholder: "[hackerrank.com/hozlucas28](https://www.hackerrank.com/hozlucas28)"
   sections:
     Perfil profesional:
       - "**Software Engineer FullStack con +4 años** de experiencia profesional y desarrollo autodidacta en Go, Node.js y React. Diseño sistemas backend escalables aplicando Clean Architecture, TDD y SOLID, integrando GenAI en mi flujo diario para acelerar el ciclo de vida del desarrollo de software. Además, he contribuido a proyectos open source de Mercado Libre."
