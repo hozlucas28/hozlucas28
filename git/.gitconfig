@@ -72,6 +72,8 @@
     ui = auto
 
 [alias]
+    alias = config --name-only --get-regexp ^alias\.
+
     # Commits
     find-commit = log --grep
     show-last-commit = log -1 HEAD --stat
